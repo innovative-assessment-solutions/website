@@ -1,0 +1,639 @@
+/*-- scss:defaults --*/
+
+$primary:   #e64e4e;
+$secondary: #233452;
+$info:      #67ABE9;
+$light:     #F4F5F7;
+$dark:      #00102E;
+
+$link-color:       #67ABE9;
+$link-hover-color: #4a8fc4;
+
+$font-family-sans-serif: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+$headings-font-family:   'Montserrat', 'Helvetica Neue', Arial, sans-serif;
+$headings-font-weight:   700;
+$font-size-base:         1rem;
+$line-height-base:       1.68;
+
+$navbar-bg: #00102E;
+$navbar-fg: #ffffff;
+
+/*-- scss:rules --*/
+
+// ── Global heading font ───────────────────────────────────────────────────────
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Montserrat', 'Helvetica Neue', Arial, sans-serif;
+}
+
+body {
+  font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+  color: #333;
+}
+
+// ── Remove Quarto default content padding ────────────────────────────────────
+#quarto-content {
+  padding: 0 !important;
+  margin: 0 !important;
+}
+.page-layout-full #quarto-content > * {
+  max-width: none !important;
+  padding: 0 !important;
+}
+
+// ── Navbar ────────────────────────────────────────────────────────────────────
+.navbar {
+  padding: 12px 0;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.35);
+}
+
+.navbar-brand img {
+  height: 52px;
+  width: auto;
+}
+
+.navbar-nav .nav-link {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  padding: 0.4rem 1.1rem !important;
+  transition: color 0.2s ease;
+}
+
+.navbar-nav .nav-link:hover,
+.navbar-nav .nav-link.active {
+  color: #e64e4e !important;
+}
+
+// ── Hero ──────────────────────────────────────────────────────────────────────
+.ias-hero {
+  min-height: 560px;
+  display: flex;
+  align-items: center;
+  background: linear-gradient(135deg, #00102E 0%, #233452 100%);
+  color: white;
+  padding: clamp(70px, 10vw, 110px) 20px;
+  text-align: center;
+}
+
+.ias-hero h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: clamp(2rem, 5vw, 3.5rem);
+  font-weight: 800;
+  color: white;
+  line-height: 1.15;
+  margin-bottom: 20px;
+  text-shadow: 0 2px 12px rgba(0, 0, 0, 0.35);
+  letter-spacing: -0.01em;
+}
+
+.ias-hero .hero-subtitle {
+  font-family: 'Open Sans', sans-serif;
+  font-size: clamp(1rem, 2.2vw, 1.25rem);
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0.88);
+  max-width: 620px;
+  margin: 0 auto 40px;
+  letter-spacing: 0.03em;
+}
+
+// ── Interior page header (split: text left, photo right) ─────────────────────
+.page-header {
+  display: flex;
+  min-height: 340px;
+}
+
+.page-header-text {
+  flex: 0 0 52%;
+  background: linear-gradient(135deg, #00102E 0%, #233452 100%);
+  display: flex;
+  align-items: center;
+  padding: 60px 48px 60px clamp(20px, 5vw, 80px);
+  position: relative;
+}
+
+// Red accent bar on the left edge
+.page-header-text::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 5px;
+  background: #e64e4e;
+}
+
+.page-header-inner {
+  max-width: 520px;
+}
+
+.page-header-label {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: #67ABE9;
+  margin-bottom: 12px;
+}
+
+.page-header h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: clamp(1.8rem, 3.5vw, 2.8rem);
+  font-weight: 800;
+  color: white;
+  line-height: 1.15;
+  margin-bottom: 16px;
+  letter-spacing: -0.02em;
+}
+
+.page-header-sub {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1rem;
+  color: rgba(255, 255, 255, 0.75);
+  line-height: 1.65;
+  margin: 0;
+}
+
+.page-header-image {
+  flex: 0 0 48%;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+// Diagonal clip where photo meets text panel
+.page-header-image::before {
+  content: '';
+  position: absolute;
+  left: -1px;
+  top: 0;
+  bottom: 0;
+  width: 80px;
+  background: linear-gradient(to right, #233452, transparent);
+  z-index: 1;
+}
+
+@media (max-width: 767px) {
+  .page-header {
+    flex-direction: column;
+    min-height: auto;
+  }
+  .page-header-text {
+    flex: none;
+    padding: 48px 28px;
+  }
+  .page-header-image {
+    flex: none;
+    height: 220px;
+  }
+  .page-header-image::before {
+    display: none;
+  }
+}
+
+// ── Buttons — square, uppercase, Montserrat ───────────────────────────────────
+.btn-ias {
+  display: inline-block;
+  background-color: #67ABE9;
+  color: white;
+  border: 2px solid #67ABE9;
+  padding: 14px 38px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  text-decoration: none;
+  border-radius: 0;
+  transition: background-color 0.2s, color 0.2s, border-color 0.2s;
+  cursor: pointer;
+  white-space: nowrap;
+}
+.btn-ias:hover {
+  background-color: white;
+  color: #233452;
+  border-color: white;
+  text-decoration: none;
+}
+
+.btn-ias-outline {
+  display: inline-block;
+  background-color: transparent;
+  color: white;
+  border: 2px solid rgba(255, 255, 255, 0.7);
+  padding: 14px 38px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  text-decoration: none;
+  border-radius: 0;
+  transition: background-color 0.2s, color 0.2s, border-color 0.2s;
+}
+.btn-ias-outline:hover {
+  background-color: white;
+  color: #233452;
+  border-color: white;
+  text-decoration: none;
+}
+
+.btn-ias-red {
+  display: inline-block;
+  background-color: #e64e4e;
+  color: white;
+  border: 2px solid #e64e4e;
+  padding: 14px 38px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  text-decoration: none;
+  border-radius: 0;
+  transition: background-color 0.2s, color 0.2s;
+  cursor: pointer;
+}
+.btn-ias-red:hover {
+  background-color: #c03c3c;
+  border-color: #c03c3c;
+  color: white;
+  text-decoration: none;
+}
+
+// ── Section wrappers ──────────────────────────────────────────────────────────
+.section-white {
+  background-color: #ffffff;
+  padding: clamp(70px, 8vw, 100px) 20px;
+}
+.section-light {
+  background-color: #F4F5F7;
+  padding: clamp(70px, 8vw, 100px) 20px;
+}
+.section-navy {
+  background-color: #233452;
+  color: white;
+  padding: clamp(70px, 8vw, 100px) 20px;
+}
+.section-dark {
+  background-color: #00102E;
+  color: white;
+  padding: clamp(70px, 8vw, 100px) 20px;
+}
+
+.section-container {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+// ── Section headings & dividers ───────────────────────────────────────────────
+.section-heading {
+  font-family: 'Montserrat', sans-serif;
+  font-size: clamp(1.6rem, 3vw, 2.4rem);
+  font-weight: 800;
+  color: #00102E;
+  margin-bottom: 14px;
+  letter-spacing: -0.02em;
+  line-height: 1.2;
+}
+
+.section-navy .section-heading,
+.section-dark .section-heading {
+  color: white;
+}
+
+.section-divider {
+  width: 60px;
+  height: 4px;
+  background: #e64e4e;
+  border: none;
+  margin: 0 auto 40px;
+}
+
+.section-divider-left {
+  width: 60px;
+  height: 4px;
+  background: #e64e4e;
+  border: none;
+  margin: 0 0 40px;
+}
+
+// ── Service strip (below hero) ────────────────────────────────────────────────
+.service-strip {
+  background: #00102E;
+}
+
+.service-item {
+  padding: 36px 28px;
+  border-right: 1px solid rgba(255, 255, 255, 0.08);
+  text-align: center;
+}
+
+.service-item:last-child {
+  border-right: none;
+}
+
+.service-item h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: #67ABE9;
+  margin-bottom: 8px;
+}
+
+.service-item p {
+  font-size: 0.85rem;
+  color: rgba(255, 255, 255, 0.65);
+  margin: 0;
+  line-height: 1.55;
+}
+
+// ── Philosophy / 3-column cards ───────────────────────────────────────────────
+.philosophy-card {
+  background: white;
+  box-shadow: 0 4px 28px rgba(0, 0, 0, 0.07);
+  padding: 42px 32px;
+  height: 100%;
+  border-top: 4px solid #e64e4e;
+  border-radius: 0;
+  transition: box-shadow 0.25s, transform 0.25s;
+}
+.philosophy-card:hover {
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.12);
+  transform: translateY(-3px);
+}
+.philosophy-card h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: #233452;
+  margin-bottom: 16px;
+}
+.philosophy-card p {
+  color: #555;
+  font-size: 0.93rem;
+  line-height: 1.8;
+  margin: 0;
+}
+
+// ── Team cards — portrait photo, red top border ───────────────────────────────
+.team-card {
+  background: white;
+  box-shadow: 0 4px 28px rgba(0, 0, 0, 0.07);
+  overflow: hidden;
+  height: 100%;
+  border-radius: 0;
+  transition: box-shadow 0.25s, transform 0.25s;
+}
+.team-card:hover {
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.12);
+  transform: translateY(-3px);
+}
+
+.team-photo-wrap {
+  width: 100%;
+  aspect-ratio: 3 / 4;
+  overflow: hidden;
+  background: #e8edf3;
+}
+.team-photo-wrap img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: top center;
+  display: block;
+  transition: transform 0.4s ease;
+}
+.team-card:hover .team-photo-wrap img {
+  transform: scale(1.04);
+}
+
+.team-card-body {
+  padding: 28px 24px 32px;
+  border-top: 4px solid #e64e4e;
+}
+.team-card-body h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1rem;
+  font-weight: 700;
+  color: #00102E;
+  margin-bottom: 4px;
+  letter-spacing: 0.01em;
+}
+.team-card-body .team-role {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 0.72rem;
+  font-weight: 700;
+  color: #e64e4e;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  margin-bottom: 16px;
+}
+.team-card-body p {
+  font-size: 0.875rem;
+  color: #555;
+  line-height: 1.75;
+  margin: 0;
+}
+
+// ── Feature / icon cards ──────────────────────────────────────────────────────
+.feature-card {
+  background: white;
+  box-shadow: 0 4px 28px rgba(0, 0, 0, 0.07);
+  padding: 44px 28px 40px;
+  text-align: center;
+  height: 100%;
+  border-bottom: 4px solid transparent;
+  border-radius: 0;
+  transition: border-color 0.25s, box-shadow 0.25s, transform 0.25s;
+}
+.feature-card:hover {
+  border-bottom-color: #e64e4e;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.12);
+  transform: translateY(-3px);
+}
+.feature-card img {
+  width: 80px;
+  height: 80px;
+  object-fit: contain;
+  margin-bottom: 22px;
+}
+.feature-card p {
+  color: #444;
+  font-size: 0.9rem;
+  line-height: 1.75;
+  margin: 0;
+}
+
+// ── Quote banner ──────────────────────────────────────────────────────────────
+.quote-banner {
+  background: #233452;
+  padding: 70px 20px;
+  text-align: center;
+}
+.quote-banner blockquote {
+  font-family: 'Montserrat', sans-serif;
+  font-size: clamp(1.2rem, 2.8vw, 1.9rem);
+  font-style: italic;
+  font-weight: 300;
+  color: white;
+  border: none;
+  padding: 0;
+  margin: 0 auto;
+  max-width: 760px;
+  letter-spacing: 0.01em;
+  line-height: 1.5;
+}
+
+// ── CTA banner ────────────────────────────────────────────────────────────────
+.cta-banner {
+  background: linear-gradient(135deg, #00102E 0%, #233452 100%);
+  padding: clamp(70px, 8vw, 100px) 20px;
+  text-align: center;
+}
+.cta-banner h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: clamp(1.5rem, 3vw, 2.2rem);
+  font-weight: 800;
+  color: white;
+  margin-bottom: 16px;
+  letter-spacing: -0.01em;
+}
+.cta-banner p {
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 1.05rem;
+  margin: 0 auto 36px;
+  max-width: 560px;
+  line-height: 1.75;
+}
+
+// ── Side-by-side image+text panels ───────────────────────────────────────────
+.split-panel {
+  display: flex;
+  align-items: center;
+  gap: clamp(40px, 6vw, 80px);
+  flex-wrap: wrap;
+}
+.split-panel-text  { flex: 1; min-width: 280px; }
+.split-panel-image { flex: 1; min-width: 280px; }
+.split-panel-image img {
+  width: 100%;
+  max-width: 480px;
+  display: block;
+  box-shadow: 0 8px 40px rgba(0, 0, 0, 0.18);
+}
+
+// ── Service mini-cards (Resources page) ──────────────────────────────────────
+.service-mini-card {
+  background: rgba(255, 255, 255, 0.06);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  padding: 36px 28px;
+  height: 100%;
+}
+.service-mini-card h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 0.85rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #67ABE9;
+  margin-bottom: 14px;
+}
+.service-mini-card p {
+  font-size: 0.9rem;
+  color: rgba(255, 255, 255, 0.72);
+  line-height: 1.7;
+  margin: 0;
+}
+
+// ── Contact form ──────────────────────────────────────────────────────────────
+.contact-wrapper {
+  max-width: 720px;
+  margin: 0 auto;
+}
+.contact-form .form-label {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 0.75rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #233452;
+  margin-bottom: 6px;
+  display: block;
+}
+.contact-form .form-control,
+.contact-form .form-select {
+  border: 1px solid #cdd3dc;
+  border-radius: 0;
+  padding: 12px 16px;
+  font-size: 0.95rem;
+  font-family: 'Open Sans', sans-serif;
+  margin-bottom: 22px;
+  width: 100%;
+  background: white;
+  transition: border-color 0.2s, box-shadow 0.2s;
+  appearance: auto;
+}
+.contact-form .form-control:focus,
+.contact-form .form-select:focus {
+  border-color: #67ABE9;
+  box-shadow: 0 0 0 3px rgba(103, 171, 233, 0.18);
+  outline: none;
+}
+.contact-form textarea.form-control {
+  resize: vertical;
+  min-height: 140px;
+}
+.contact-form .form-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+@media (max-width: 576px) {
+  .contact-form .form-row { grid-template-columns: 1fr; }
+}
+
+// ── Contact info strip ────────────────────────────────────────────────────────
+.contact-info-label {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: #67ABE9;
+  margin-bottom: 8px;
+}
+
+// ── Responsive grid fallbacks ─────────────────────────────────────────────────
+@media (max-width: 767px) {
+  [style*="grid-template-columns:repeat(4"] {
+    grid-template-columns: repeat(2, 1fr) !important;
+  }
+  [style*="grid-template-columns:repeat(3"] {
+    grid-template-columns: 1fr !important;
+  }
+  [style*="grid-template-columns:1fr 1fr"] {
+    grid-template-columns: 1fr !important;
+  }
+}
+
+@media (max-width: 480px) {
+  [style*="grid-template-columns:repeat(4"] {
+    grid-template-columns: 1fr !important;
+  }
+}
+
+// ── Footer ────────────────────────────────────────────────────────────────────
+.nav-footer {
+  background-color: #0a3555 !important;
+  padding: 24px 0 !important;
+  font-size: 0.875rem;
+}
+.nav-footer a { color: #67ABE9 !important; }
+.nav-footer .nav-footer-center { color: rgba(255, 255, 255, 0.75); }

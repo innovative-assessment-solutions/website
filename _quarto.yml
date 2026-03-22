@@ -1,0 +1,50 @@
+project:
+  type: website
+  output-dir: _site
+  resources:
+    - assets/
+
+website:
+  title: "Innovative Assessment Solutions"
+  favicon: assets/images/cropped-favicon-05.png
+  description: "Assessment content development, psychometric consulting, and data analytics."
+
+  navbar:
+    logo: assets/images/IAS_Logo_White.png
+    logo-alt: "Innovative Assessment Solutions"
+    logo-href: "index.qmd"
+    background: "#00102E"
+    foreground: "white"
+    left:
+      - text: "Home"
+        href: index.qmd
+      - text: "Resources"
+        href: resources.qmd
+      - text: "Meet Our Team"
+        href: about.qmd
+    right:
+      - text: "Contact"
+        href: contact.qmd
+
+  page-footer:
+    background: "#0a3555"
+    foreground: "white"
+    center: |
+      © 2025 Innovative Assessment Solutions, LLC &nbsp;|&nbsp;
+      PO Box 14, Iowa City, Iowa 52244-0014 &nbsp;|&nbsp;
+      <a href="tel:+13193228001" style="color:#67ABE9;">+1-319-322-8001</a>
+
+format:
+  html:
+    theme:
+      - cosmo
+      - custom.scss
+    toc: false
+    page-layout: full
+    grid:
+      body-width: 1200px
+    include-in-header:
+      - text: |
+          <link rel="preconnect" href="https://fonts.googleapis.com">
+          <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+          <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800&family=Open+Sans:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
