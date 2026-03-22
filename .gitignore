@@ -1,0 +1,6 @@
+# macOS
+.DS_Store
+
+# Quarto build output
+_site/
+/.quarto/
