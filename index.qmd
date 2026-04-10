@@ -27,15 +27,15 @@ description: "Innovative Assessment Solutions — Informative, Actionable, and U
     <div style="display:grid; grid-template-columns:repeat(3,1fr); gap:28px;">
       <div class="philosophy-card" style="text-align:center;">
         <h3>Assessment Content</h3>
-        <p>Custom-built screeners aligned to your district's curriculum and standards.</p>
+        <p>Custom-built screeners aligned to your district's curriculum and standards</p>
       </div>
       <div class="philosophy-card" style="text-align:center;">
         <h3>Psychometric Consulting</h3>
-        <p>Advanced statistical expertise to ensure validity, reliability, and rigor.</p>
+        <p>Advanced statistical expertise to ensure validity, reliability, and rigor</p>
       </div>
       <div class="philosophy-card" style="text-align:center;">
         <h3>Data Analytics</h3>
-        <p>Actionable insights from assessment data to drive student outcomes.</p>
+        <p>Actionable insights from assessment data to drive student outcomes</p>
       </div>
     </div>
   </div>
@@ -96,9 +96,7 @@ description: "Innovative Assessment Solutions — Informative, Actionable, and U
         <h2 class="section-heading">Who We Are</h2>
         <hr class="section-divider-left">
         <p style="color:rgba(255,255,255,0.82); font-size:1rem; line-height:1.85; margin-bottom:32px;">
-          Innovative Assessment Solutions, LLC (IAS) is an early-stage startup dedicated to making
-          assessments more informative, actionable, and useful in educational settings. We employ
-          novel psychometric methods alongside advanced data analytics. With extensive experience
+          Founded in 2020, Innovative Assessment Solutions, LLC (IAS) is dedicated to making assessments more informative, actionable, and useful in educational settings. We employ novel psychometric methods alongside advanced data analytics. With extensive experience
           across all phases of assessment development, our team's insights will revolutionize how
           student data is analyzed, displayed, and processed.
         </p>

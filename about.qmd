@@ -87,10 +87,7 @@ description: "Meet the IAS team — dedicated experts in psychometrics, educatio
             <h3>Anne Wilson, MBA</h3>
             <p class="team-role">IAS Co-Founder</p>
             <p>
-              Anne's accounting career includes nearly 20 years at the University of Iowa, where
-              she serves as Finance Manager for the Department of Ophthalmology &amp; Visual
-              Sciences. She also assists businesses with accounting and tax needs, and loves
-              enacting process improvements.
+              Anne’s accounting career is rooted in both the public and private sectors, and includes 20+ years at the University of Iowa. She enjoys enacting process improvements.
             </p>
           </div>
         </div>

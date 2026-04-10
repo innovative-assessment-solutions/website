@@ -6,7 +6,7 @@ project:
 
 website:
   title: "Innovative Assessment Solutions"
-  favicon: assets/images/cropped-favicon-05.png
+  favicon: assets/images/cropped-favicon-05.png 
   description: "Assessment content development, psychometric consulting, and data analytics."
 
   navbar:
