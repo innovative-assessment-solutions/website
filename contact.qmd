@@ -7,7 +7,7 @@ description: "Contact Innovative Assessment Solutions — we're here to help you
 <!-- ── HERO ─────────────────────────────────────────────────────────────────── -->
 <section class="ias-hero">
   <div class="section-container">
-    <h1>Revolutionizing Educational Excellence Together.</h1>
+    <div class="ias-hero-h1" role="heading" aria-level="1">Revolutionizing Educational Excellence Together.</div>
     <p class="hero-subtitle">Reach out — we're here to help every step of the way.</p>
   </div>
 </section>
@@ -18,10 +18,9 @@ description: "Contact Innovative Assessment Solutions — we're here to help you
     <h2 class="section-heading">Get in Touch</h2>
     <hr class="section-divider">
     <p style="color:#555; font-size:1rem; line-height:1.85;">
-      At IAS, we are passionate about transforming educational experiences through cutting-edge
-      interim assessments, psychometric consulting, and expert content development. Our dedicated
-      team is committed to providing personalized support tailored to your specific needs.
-      Fill out the form below and we'll be in touch shortly.
+      At IAS, we are passionate about transforming educational experiences through our
+      cutting-edge assessments. Our dedicated team is committed to providing personalized support
+      tailored to your specific needs.
     </p>
   </div>
 </section>
@@ -46,19 +45,19 @@ description: "Contact Innovative Assessment Solutions — we're here to help you
 
         <div class="form-row">
           <div>
-            <label class="form-label" for="first-name">First Name <span style="color:#e64e4e;">*</span></label>
+            <label class="form-label" for="first-name">First Name <span style="color:#67ABE9;">*</span></label>
             <input class="form-control" type="text" id="first-name" name="first_name" placeholder="First name" required>
           </div>
           <div>
-            <label class="form-label" for="last-name">Last Name <span style="color:#e64e4e;">*</span></label>
+            <label class="form-label" for="last-name">Last Name <span style="color:#67ABE9;">*</span></label>
             <input class="form-control" type="text" id="last-name" name="last_name" placeholder="Last name" required>
           </div>
         </div>
 
-        <label class="form-label" for="email">Email Address <span style="color:#e64e4e;">*</span></label>
+        <label class="form-label" for="email">Email Address <span style="color:#67ABE9;">*</span></label>
         <input class="form-control" type="email" id="email" name="email" placeholder="you@yourdomain.com" required>
 
-        <label class="form-label" for="state">State / Location <span style="color:#e64e4e;">*</span></label>
+        <label class="form-label" for="state">State / Location <span style="color:#67ABE9;">*</span></label>
         <select class="form-control form-select" id="state" name="state" required>
           <option value="" disabled selected>Select your state…</option>
           <option>Alabama</option><option>Alaska</option><option>Arizona</option>
@@ -81,10 +80,10 @@ description: "Contact Innovative Assessment Solutions — we're here to help you
           <option>District of Columbia</option><option>Other / International</option>
         </select>
 
-        <label class="form-label" for="org">Affiliated District or Organization <span style="color:#e64e4e;">*</span></label>
+        <label class="form-label" for="org">Affiliated District or Organization <span style="color:#67ABE9;">*</span></label>
         <input class="form-control" type="text" id="org" name="organization" placeholder="District or organization name" required>
 
-        <label class="form-label" for="message">Comment or Message <span style="color:#e64e4e;">*</span></label>
+        <label class="form-label" for="message">Comment or Message <span style="color:#67ABE9;">*</span></label>
         <textarea class="form-control" id="message" name="message" rows="6" placeholder="How can we help you?" required></textarea>
 
         <input type="text" name="_gotcha" style="display:none;">
@@ -99,23 +98,4 @@ description: "Contact Innovative Assessment Solutions — we're here to help you
   </div>
 </section>
 
-<!-- ── CONTACT INFO ───────────────────────────────────────────────────────────── -->
-<section class="section-dark" style="padding:56px 20px;">
-  <div class="section-container">
-    <div style="display:grid; grid-template-columns:1fr 1fr; gap:24px; max-width:700px; margin:0 auto; text-align:center;">
-      <div>
-        <p class="contact-info-label">Mailing Address</p>
-        <p style="color:white; font-size:1rem; margin:0; line-height:1.7;">
-          PO Box 14<br>Iowa City, Iowa 52244-0014
-        </p>
-      </div>
-      <div>
-        <p class="contact-info-label">Phone</p>
-        <p style="color:white; font-size:1rem; margin:0;">
-          <a href="tel:+13193228001" style="color:#67ABE9; text-decoration:none;">+1-319-322-8001</a>
-        </p>
-      </div>
-    </div>
-  </div>
-</section>
 ```

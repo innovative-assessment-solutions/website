@@ -12,95 +12,58 @@ description: "Innovative Assessment Solutions — Informative, Actionable, and U
   position: relative;">
   <div style="position:absolute; inset:0; background:linear-gradient(135deg, rgba(0,16,46,0.85) 0%, rgba(35,52,82,0.80) 100%);"></div>
   <div class="section-container" style="position:relative; z-index:1;">
-    <h1>Informative, Actionable, and Useful</h1>
-    <p class="hero-subtitle">A Revolutionary Approach to Student Data</p>
+    <div class="ias-hero-h1" role="heading" aria-level="1">Actionable Assessment Data</div>
+    <p class="hero-subtitle">Meet Astra: Curriculum-aligned, standard-specific,<br>delivered in time to change instruction</p>
     <div style="display:flex; gap:16px; justify-content:center; flex-wrap:wrap;">
-      <a href="resources.qmd" class="btn-ias">Explore Our Resources</a>
+      <a href="astra-assessments.qmd" class="btn-ias">Explore Astra</a>
       <a href="contact.qmd" class="btn-ias-outline">Get in Touch</a>
     </div>
   </div>
 </section>
 
-<!-- ── SERVICE COLUMNS ────────────────────────────────────────────────────────── -->
-<section class="section-white" style="padding:70px 20px;">
-  <div class="section-container">
-    <div style="display:grid; grid-template-columns:repeat(3,1fr); gap:28px;">
-      <div class="philosophy-card" style="text-align:center;">
-        <h3>Assessment Content</h3>
-        <p>Custom-built screeners aligned to your district's curriculum and standards</p>
-      </div>
-      <div class="philosophy-card" style="text-align:center;">
-        <h3>Psychometric Consulting</h3>
-        <p>Advanced statistical expertise to ensure validity, reliability, and rigor</p>
-      </div>
-      <div class="philosophy-card" style="text-align:center;">
-        <h3>Data Analytics</h3>
-        <p>Actionable insights from assessment data to drive student outcomes</p>
-      </div>
-    </div>
-  </div>
-</section>
-
 <!-- ── VISION & MISSION ───────────────────────────────────────────────────────── -->
-<section class="section-light">
+<section class="section-light" style="padding-top:clamp(60px,6vw,80px); padding-bottom:clamp(60px,6vw,80px);">
   <div class="section-container" style="text-align:center;">
+    <img src="assets/images/IAS_Logo_Color.png"
+         alt="Innovative Assessment Solutions"
+         style="display:block; margin:0 auto 32px; width:220px; max-width:60%; height:auto;">
     <h2 class="section-heading">Our Vision and Mission</h2>
     <hr class="section-divider">
-    <p style="max-width:740px; margin:0 auto 56px; color:#555; font-size:1rem; line-height:1.85;">
-      IAS provides comprehensive educational assessment services including assessment content
-      development, psychometric consulting, and data analytics. We work closely with educational
-      institutions to ensure our assessments align with their specific needs and goals, ultimately
-      supporting student success and enhancing learning outcomes.
+    <p style="max-width:740px; margin:0 auto; color:#555; font-size:1rem; line-height:1.85;">
+      Our mission is to build assessments that turn student data into instructional action.
+      Whether through Astra &mdash; our flagship through-year system in Kansas &mdash; or through
+      direct partnerships with assessment vendors, districts, and states, IAS delivers assessment
+      data educators can actually use to guide instruction, accelerate learning, and improve
+      results.
     </p>
-
-    <div style="display:grid; grid-template-columns:repeat(3,1fr); gap:28px;">
-      <div class="philosophy-card">
-        <h3>Philosophy</h3>
-        <p>
-          At IAS, we believe that effective assessment systems should provide precise, actionable
-          insights that guide educational decision-making. We develop assessments that align
-          closely with students' ongoing educational progress, ensuring evaluations are meaningful
-          and supportive of their learning journey.
-        </p>
-      </div>
-      <div class="philosophy-card">
-        <h3>Actionable Insights</h3>
-        <p>
-          IAS is committed to creating products that address two key challenges: developing
-          assessments that provide reliable, actionable information, and designing data systems
-          that harmonize assessment data with student progress — putting meaningful data in
-          educators' hands when they need it most.
-        </p>
-      </div>
-      <div class="philosophy-card">
-        <h3>Services</h3>
-        <p>
-          From assessment content development and psychometric consulting to data analytics,
-          IAS works closely with educational institutions to ensure our tools align with their
-          specific needs and goals, ultimately supporting student success and enhancing
-          learning outcomes.
-        </p>
-      </div>
+    <div style="margin-top:36px;">
+      <a href="about.qmd" class="btn-ias">Meet Our Team</a>
     </div>
   </div>
 </section>
 
-<!-- ── WHO WE ARE ─────────────────────────────────────────────────────────────── -->
-<section class="section-navy">
+<!-- ── ASTRA SPOTLIGHT — PIVOT TO KANSAS ────────────────────────────────────── -->
+<section class="astra-spotlight">
   <div class="section-container">
-    <div class="split-panel">
-      <div class="split-panel-image">
-        <img src="assets/images/graduate-opaque.png" alt="Student graduating">
-      </div>
-      <div class="split-panel-text">
-        <h2 class="section-heading">Who We Are</h2>
-        <hr class="section-divider-left">
-        <p style="color:rgba(255,255,255,0.82); font-size:1rem; line-height:1.85; margin-bottom:32px;">
-          Founded in 2020, Innovative Assessment Solutions, LLC (IAS) is dedicated to making assessments more informative, actionable, and useful in educational settings. We employ novel psychometric methods alongside advanced data analytics. With extensive experience
-          across all phases of assessment development, our team's insights will revolutionize how
-          student data is analyzed, displayed, and processed.
+    <div class="astra-spotlight-grid">
+      <div>
+        <p class="astra-spotlight-eyebrow">Our Kansas work</p>
+        <h2>Astra: a through-year assessment system built in Kansas, specifically for Kansas</h2>
+        <p class="lead">
+          Astra is IAS's flagship assessment product — a quarterly benchmark platform aligned to
+          each district's scope and sequence, developed in partnership with the Kansas districts.
+          We release all assessment items and feature standard-level item response reports that
+          arrive within days of each administration. Our quarterly composite scores explain
+          70–90% of the variance in end-of-year KAP scores.
         </p>
-        <a href="about.qmd" class="btn-ias">Meet Our Team</a>
+        <div style="display:flex; gap:14px; flex-wrap:wrap;">
+          <a href="astra-assessments.qmd" class="btn-ias">Astra Assessments</a>
+          <a href="contact.qmd" class="btn-ias-outline">2026–27 Kansas Cohort</a>
+        </div>
+      </div>
+      <div class="astra-spotlight-mark">
+        <img src="assets/images/Astra_Logo_Color.png" alt="Astra — a Kansas through-year assessment system by IAS">
+        <div class="mark-caption">Ad Astra Per Aspera</div>
       </div>
     </div>
   </div>
@@ -111,13 +74,13 @@ description: "Innovative Assessment Solutions — Informative, Actionable, and U
   <div class="section-container">
     <h2>Ready to Revolutionize Your Assessments?</h2>
     <p>
-      Discover how IAS's proficiency screeners, psychometric consulting, and data analytics
-      can transform the way your district understands and supports student learning.
+      Whether you are a Kansas district exploring the 2026–27 Astra cohort or a outside of Kansas
+      wanting to bring the power of our assessments to your state, we would like to hear from you.
     </p>
     <div style="display:flex; gap:16px; justify-content:center; flex-wrap:wrap;">
-      <a href="resources.qmd" class="btn-ias">Our Resources</a>
-      <a href="contact.qmd" class="btn-ias-outline">Start the Conversation</a>
+      <a href="contact.qmd" class="btn-ias">Start the Conversation</a>
     </div>
   </div>
 </section>
+
 ```

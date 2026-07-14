@@ -1,6 +1,11 @@
 /*-- scss:defaults --*/
 
-$primary:   #e64e4e;
+// Palette derived directly from the IAS logo:
+//   $dark      — deepest navy (background band on the logo type)
+//   $secondary — medium navy (dark bar of the chart)
+//   $primary   — mid blue (used for the pop accent; formerly a red)
+//   $info      — light blue (matches the lightest bar in the logo)
+$primary:   #3d7fb0;
 $secondary: #233452;
 $info:      #67ABE9;
 $light:     #F4F5F7;
@@ -15,8 +20,8 @@ $headings-font-weight:   700;
 $font-size-base:         1rem;
 $line-height-base:       1.68;
 
-$navbar-bg: #00102E;
-$navbar-fg: #ffffff;
+$navbar-bg: #ffffff;
+$navbar-fg: #00102E;
 
 /*-- scss:rules --*/
 
@@ -40,14 +45,25 @@ body {
   padding: 0 !important;
 }
 
+// Every page in this site opens with its own custom hero / page-header,
+// so hide Quarto's default page title block globally — otherwise the
+// page's frontmatter title renders as a duplicate H1 above the hero.
+.quarto-title-block,
+header#title-block-header,
+.title-block-header {
+  display: none !important;
+}
+
 // ── Navbar ────────────────────────────────────────────────────────────────────
 .navbar {
-  padding: 12px 0;
-  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.35);
+  padding: 10px 0;
+  background: #ffffff !important;
+  border-bottom: 1px solid #e3e8ef;
+  box-shadow: 0 1px 6px rgba(0, 16, 46, 0.06);
 }
 
 .navbar-brand img {
-  height: 52px;
+  height: 56px;
   width: auto;
 }
 
@@ -58,12 +74,21 @@ body {
   letter-spacing: 0.08em;
   text-transform: uppercase;
   padding: 0.4rem 1.1rem !important;
+  color: #00102E !important;
   transition: color 0.2s ease;
 }
 
 .navbar-nav .nav-link:hover,
 .navbar-nav .nav-link.active {
-  color: #e64e4e !important;
+  color: #3d7fb0 !important;
+}
+
+// Search icon + hamburger toggle should now match the dark navy foreground
+.navbar .navbar-toggler,
+.navbar .quarto-search .aa-DetachedSearchButton,
+.navbar .aa-DetachedSearchButtonIcon {
+  color: #00102E !important;
+  border-color: #00102E !important;
 }
 
 // ── Hero ──────────────────────────────────────────────────────────────────────
@@ -77,15 +102,20 @@ body {
   text-align: center;
 }
 
-.ias-hero h1 {
+.ias-hero h1,
+.ias-hero .ias-hero-h1 {
   font-family: 'Montserrat', sans-serif;
   font-size: clamp(2rem, 5vw, 3.5rem);
   font-weight: 800;
   color: white;
   line-height: 1.15;
-  margin-bottom: 20px;
+  margin: 0 0 20px;
   text-shadow: 0 2px 12px rgba(0, 0, 0, 0.35);
   letter-spacing: -0.01em;
+}
+.ias-hero .ias-hero-h1 {
+  display: block;
+  text-align: center;
 }
 
 .ias-hero .hero-subtitle {
@@ -121,7 +151,7 @@ body {
   top: 0;
   bottom: 0;
   width: 5px;
-  background: #e64e4e;
+  background: #67ABE9;
 }
 
 .page-header-inner {
@@ -138,14 +168,16 @@ body {
   margin-bottom: 12px;
 }
 
-.page-header h1 {
+.page-header h1,
+.page-header .page-header-h1 {
   font-family: 'Montserrat', sans-serif;
   font-size: clamp(1.8rem, 3.5vw, 2.8rem);
   font-weight: 800;
   color: white;
   line-height: 1.15;
-  margin-bottom: 16px;
+  margin: 0 0 16px;
   letter-spacing: -0.02em;
+  display: block;
 }
 
 .page-header-sub {
@@ -242,9 +274,9 @@ body {
 
 .btn-ias-red {
   display: inline-block;
-  background-color: #e64e4e;
+  background-color: #67ABE9;
   color: white;
-  border: 2px solid #e64e4e;
+  border: 2px solid #67ABE9;
   padding: 14px 38px;
   font-family: 'Montserrat', sans-serif;
   font-size: 0.8rem;
@@ -257,8 +289,8 @@ body {
   cursor: pointer;
 }
 .btn-ias-red:hover {
-  background-color: #c03c3c;
-  border-color: #c03c3c;
+  background-color: #3d7fb0;
+  border-color: #3d7fb0;
   color: white;
   text-decoration: none;
 }
@@ -307,7 +339,7 @@ body {
 .section-divider {
   width: 60px;
   height: 4px;
-  background: #e64e4e;
+  background: #67ABE9;
   border: none;
   margin: 0 auto 40px;
 }
@@ -315,7 +347,7 @@ body {
 .section-divider-left {
   width: 60px;
   height: 4px;
-  background: #e64e4e;
+  background: #67ABE9;
   border: none;
   margin: 0 0 40px;
 }
@@ -358,7 +390,7 @@ body {
   box-shadow: 0 4px 28px rgba(0, 0, 0, 0.07);
   padding: 42px 32px;
   height: 100%;
-  border-top: 4px solid #e64e4e;
+  border-top: 4px solid #67ABE9;
   border-radius: 0;
   transition: box-shadow 0.25s, transform 0.25s;
 }
@@ -416,7 +448,7 @@ body {
 
 .team-card-body {
   padding: 28px 24px 32px;
-  border-top: 4px solid #e64e4e;
+  border-top: 4px solid #67ABE9;
 }
 .team-card-body h3 {
   font-family: 'Montserrat', sans-serif;
@@ -430,7 +462,7 @@ body {
   font-family: 'Montserrat', sans-serif;
   font-size: 0.72rem;
   font-weight: 700;
-  color: #e64e4e;
+  color: #67ABE9;
   letter-spacing: 0.12em;
   text-transform: uppercase;
   margin-bottom: 16px;
@@ -454,7 +486,7 @@ body {
   transition: border-color 0.25s, box-shadow 0.25s, transform 0.25s;
 }
 .feature-card:hover {
-  border-bottom-color: #e64e4e;
+  border-bottom-color: #67ABE9;
   box-shadow: 0 10px 40px rgba(0, 0, 0, 0.12);
   transform: translateY(-3px);
 }
@@ -637,3 +669,304 @@ body {
 }
 .nav-footer a { color: #67ABE9 !important; }
 .nav-footer .nav-footer-center { color: rgba(255, 255, 255, 0.75); }
+
+// ── Astra product spotlight (Home page pivot section) ───────────────────────
+.astra-spotlight {
+  background: linear-gradient(135deg, #00102E 0%, #233452 100%);
+  color: white;
+  padding: clamp(80px, 10vw, 120px) 20px;
+  position: relative;
+  overflow: hidden;
+}
+.astra-spotlight::after {
+  content: '';
+  position: absolute;
+  right: -120px; bottom: -120px;
+  width: 380px; height: 380px;
+  background: #67ABE9;
+  opacity: 0.10;
+  border-radius: 50%;
+}
+.astra-spotlight .section-container { position: relative; z-index: 1; }
+.astra-spotlight-eyebrow {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: #67ABE9;
+  margin-bottom: 14px;
+}
+.astra-spotlight h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: clamp(1.8rem, 3.6vw, 2.8rem);
+  font-weight: 800;
+  color: white;
+  margin: 0 0 24px;
+  line-height: 1.15;
+  letter-spacing: -0.02em;
+  max-width: 780px;
+}
+.astra-spotlight p.lead {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.1rem;
+  color: rgba(255, 255, 255, 0.85);
+  line-height: 1.7;
+  max-width: 780px;
+  margin: 0 0 36px;
+}
+.astra-spotlight-grid {
+  display: grid;
+  grid-template-columns: 1.4fr 1fr;
+  gap: 60px;
+  align-items: center;
+}
+.astra-spotlight-mark {
+  background: rgba(255, 255, 255, 0.94);
+  border-radius: 14px;
+  padding: 32px;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.25);
+  text-align: center;
+}
+.astra-spotlight-mark img {
+  width: 100%;
+  max-width: 320px;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+.astra-spotlight-mark .mark-caption {
+  margin-top: 18px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: #233452;
+}
+@media (max-width: 900px) {
+  .astra-spotlight-grid { grid-template-columns: 1fr; gap: 40px; }
+  .astra-spotlight-mark { order: -1; max-width: 320px; margin: 0 auto; }
+}
+
+// ── Astra page hero — reused on How Astra Works, Evidence, For Kansas ─────
+.astra-page-hero {
+  background: linear-gradient(135deg, #00102E 0%, #233452 100%);
+  color: white;
+  padding: clamp(70px, 9vw, 110px) 20px;
+  position: relative;
+  overflow: hidden;
+}
+.astra-page-hero::after {
+  content: '';
+  position: absolute;
+  right: -100px; bottom: -100px;
+  width: 320px; height: 320px;
+  background: #67ABE9;
+  opacity: 0.12;
+  border-radius: 50%;
+}
+.astra-page-hero .section-container {
+  position: relative;
+  z-index: 1;
+  display: grid;
+  grid-template-columns: 1.6fr 0.9fr;
+  gap: 40px;
+  align-items: center;
+}
+.astra-page-hero-eyebrow {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: #67ABE9;
+  margin-bottom: 14px;
+}
+.astra-page-hero h1,
+.astra-page-hero .astra-page-hero-h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: clamp(2rem, 4vw, 3rem);
+  font-weight: 800;
+  color: white;
+  line-height: 1.15;
+  margin: 0 0 20px;
+  letter-spacing: -0.02em;
+  display: block;
+}
+.astra-page-hero p.lead {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.15rem;
+  color: rgba(255, 255, 255, 0.86);
+  line-height: 1.65;
+  margin: 0 0 30px;
+}
+.astra-page-hero-mark {
+  background: rgba(255, 255, 255, 0.94);
+  border-radius: 12px;
+  padding: 20px 26px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.22);
+  text-align: center;
+  max-width: 300px;
+  justify-self: end;
+}
+.astra-page-hero-mark img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+@media (max-width: 900px) {
+  .astra-page-hero .section-container {
+    grid-template-columns: 1fr;
+  }
+  .astra-page-hero-mark { justify-self: start; margin-bottom: 24px; }
+}
+
+// ── Credential badges strip (KSDE, Legislature, IADA-pending) ────────────
+.ias-badges {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  justify-content: center;
+  padding: 40px 20px;
+  background: #F4F5F7;
+  border-bottom: 1px solid #e3e8ef;
+}
+.ias-badge {
+  background: #ffffff;
+  border: 1px solid #e3e8ef;
+  border-left: 4px solid #67ABE9;
+  padding: 16px 22px;
+  border-radius: 4px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 0.9rem;
+  color: #00102E;
+  min-width: 240px;
+  letter-spacing: 0.01em;
+}
+.ias-badge small {
+  display: block;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  font-size: 0.82rem;
+  color: #555;
+  margin-top: 5px;
+  letter-spacing: 0;
+  text-transform: none;
+}
+
+// ── IADA callout — pull-quote for the pending-review notice ──────────────
+.ias-callout {
+  background: #F4F5F7;
+  border-left: 4px solid #67ABE9;
+  padding: 22px 28px;
+  border-radius: 4px;
+  margin: 40px 0;
+  color: #333;
+  font-size: 0.95rem;
+  line-height: 1.7;
+}
+.ias-callout strong { color: #00102E; }
+
+// ── Pricing cards (Kansas Districts page) ───────────────────────────────
+.ias-pricing {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 24px;
+  margin: 40px 0;
+}
+.ias-price-card {
+  background: #ffffff;
+  border: 1px solid #e3e8ef;
+  padding: 32px 28px;
+  text-align: center;
+  transition: box-shadow 0.25s, transform 0.25s;
+}
+.ias-price-card:hover {
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.10);
+  transform: translateY(-3px);
+}
+.ias-price-card.featured {
+  border: 2px solid #67ABE9;
+  box-shadow: 0 6px 24px rgba(103, 171, 233, 0.20);
+}
+.ias-price-card h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: #233452;
+  margin: 0 0 14px;
+}
+.ias-price-card .price {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.4rem;
+  font-weight: 800;
+  color: #00102E;
+  margin: 4px 0;
+  line-height: 1.05;
+}
+.ias-price-card .price small {
+  display: block;
+  font-size: 0.85rem;
+  color: #666;
+  font-weight: 400;
+  margin-top: 6px;
+}
+.ias-price-card ul {
+  list-style: none;
+  padding: 0;
+  margin: 18px 0 0;
+  text-align: left;
+  font-size: 0.9rem;
+}
+.ias-price-card ul li {
+  padding: 7px 0;
+  border-bottom: 1px dashed #e3e8ef;
+  color: #444;
+}
+.ias-price-card ul li:last-child { border-bottom: 0; }
+
+// ── Numbered step cards (How Astra Works cycle) ─────────────────────────
+.step-card {
+  background: white;
+  padding: 32px 28px;
+  box-shadow: 0 4px 28px rgba(0, 0, 0, 0.06);
+  height: 100%;
+  position: relative;
+  padding-top: 60px;
+}
+.step-card .step-num {
+  position: absolute;
+  top: 22px; left: 28px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 0.72rem;
+  font-weight: 700;
+  color: #67ABE9;
+  letter-spacing: 0.14em;
+}
+.step-card h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1rem;
+  font-weight: 700;
+  color: #00102E;
+  margin: 0 0 12px;
+  letter-spacing: 0.01em;
+}
+.step-card p {
+  color: #555;
+  font-size: 0.92rem;
+  line-height: 1.75;
+  margin: 0;
+}
+
+// ── Astra product wordmark (inline) ─────────────────────────────────────
+.astra-inline-logo {
+  display: inline-block;
+  vertical-align: middle;
+  max-height: 80px;
+  width: auto;
+}
+

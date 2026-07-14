@@ -10,20 +10,20 @@ project:
 website:
   title: "Innovative Assessment Solutions"
   favicon: assets/images/cropped-favicon-05.png 
-  description: "Assessment content development, psychometric consulting, and data analytics."
+  description: "Kansas's through-year assessment system, built by psychometricians in partnership with KSDE."
 
   navbar:
-    logo: assets/images/IAS_Logo_White.png
+    logo: assets/images/IAS_Logo_Color.png
     logo-alt: "Innovative Assessment Solutions"
     logo-href: "index.qmd"
-    background: "#00102E"
-    foreground: "white"
+    background: "#ffffff"
+    foreground: "#00102E"
     left:
       - text: "Home"
         href: index.qmd
-      - text: "Resources"
-        href: resources.qmd
-      - text: "Meet Our Team"
+      - text: "Astra Assessments"
+        href: astra-assessments.qmd
+      - text: "About"
         href: about.qmd
     right:
       - text: "Contact"
@@ -33,9 +33,7 @@ website:
     background: "#0a3555"
     foreground: "white"
     center: |
-      © 2025 Innovative Assessment Solutions, LLC &nbsp;|&nbsp;
-      PO Box 14, Iowa City, Iowa 52244-0014 &nbsp;|&nbsp;
-      <a href="tel:+13193228001" style="color:#67ABE9;">+1-319-322-8001</a>
+      © 2026 Innovative Assessment Solutions, LLC
 
 format:
   html:
@@ -44,6 +42,7 @@ format:
       - custom.scss
     toc: false
     page-layout: full
+    title-block-style: none
     grid:
       body-width: 1200px
     include-in-header:
