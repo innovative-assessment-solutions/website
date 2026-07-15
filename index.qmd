@@ -58,7 +58,7 @@ description: "Innovative Assessment Solutions — Informative, Actionable, and U
         </p>
         <div style="display:flex; gap:14px; flex-wrap:wrap;">
           <a href="astra-assessments.qmd" class="btn-ias">Astra Assessments</a>
-          <a href="contact.qmd" class="btn-ias-outline">2026–27 Kansas Cohort</a>
+          <a href="cohort.qmd" class="btn-ias-outline">2026–27 Kansas Cohort</a>
         </div>
       </div>
       <div class="astra-spotlight-mark">

@@ -970,3 +970,262 @@ header#title-block-header,
   width: auto;
 }
 
+// ── Cohort page — map embed and district cards ──────────────────────────
+.cohort-map {
+  max-width: 1000px;
+  margin: 0 auto;
+  border: 1px solid #e3e8ef;
+  background: #F4F5F7;
+  box-shadow: 0 4px 20px rgba(11, 37, 69, 0.08);
+  overflow: hidden;
+  position: relative;
+}
+.cohort-map iframe {
+  display: block;
+  width: 100%;
+  min-height: 480px;
+}
+.cohort-map-placeholder {
+  position: absolute;
+  top: 50%; left: 50%;
+  transform: translate(-50%, -50%);
+  margin: 0;
+  padding: 18px 24px;
+  background: rgba(255, 255, 255, 0.94);
+  border: 1px dashed #b8c2d1;
+  border-radius: 4px;
+  color: #555;
+  font-size: 0.9rem;
+  text-align: center;
+  max-width: 460px;
+  pointer-events: none;
+}
+// Hide the placeholder note once a real embed is in place — a real Google
+// Maps iframe reports at least one dimension; blank/about:blank frames do not.
+.cohort-map iframe[src]:not([src="about:blank"]):not([src=""]) + .cohort-map-placeholder {
+  display: none;
+}
+
+.cohort-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+  margin-top: 32px;
+}
+@media (max-width: 900px) {
+  .cohort-grid { grid-template-columns: repeat(2, 1fr); }
+}
+@media (max-width: 560px) {
+  .cohort-grid { grid-template-columns: 1fr; }
+}
+.cohort-card {
+  background: #ffffff;
+  border: 1px solid #e3e8ef;
+  border-left: 4px solid #67ABE9;
+  padding: 24px 26px;
+  transition: box-shadow 0.25s, transform 0.25s;
+}
+.cohort-card:hover {
+  box-shadow: 0 10px 40px rgba(11, 37, 69, 0.10);
+  transform: translateY(-2px);
+}
+.cohort-card h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.05rem;
+  font-weight: 700;
+  color: #00102E;
+  margin: 0 0 4px;
+  letter-spacing: 0.01em;
+}
+.cohort-card .cohort-usd {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 0.75rem;
+  font-weight: 700;
+  color: #3d7fb0;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+// ── Testimonials (Astra Assessments page) ───────────────────────────────
+.testimonial-featured {
+  max-width: 900px;
+  margin: 40px auto 0;
+  padding: 40px 32px;
+  background: #ffffff;
+  border: 1px solid #e3e8ef;
+  border-left: 5px solid #3d7fb0;
+  text-align: center;
+  position: relative;
+}
+.testimonial-featured blockquote {
+  font-family: 'Montserrat', sans-serif;
+  font-style: italic;
+  font-weight: 300;
+  color: #00102E;
+  font-size: clamp(1.3rem, 2.4vw, 1.75rem);
+  line-height: 1.4;
+  margin: 0 0 24px;
+  padding: 0;
+  border: none;
+  letter-spacing: -0.005em;
+}
+.testimonial-featured blockquote::before { content: "\201C"; margin-right: 2px; }
+.testimonial-featured blockquote::after { content: "\201D"; margin-left: 2px; }
+
+.testimonial-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 28px;
+  max-width: 1100px;
+  margin: 32px auto 0;
+}
+@media (max-width: 800px) {
+  .testimonial-grid { grid-template-columns: 1fr; }
+}
+.testimonial-card {
+  background: #ffffff;
+  border: 1px solid #e3e8ef;
+  border-left: 4px solid #67ABE9;
+  padding: 32px 32px 28px;
+  display: flex;
+  flex-direction: column;
+}
+.testimonial-card blockquote {
+  margin: 0 0 22px;
+  padding: 0;
+  border: none;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 0.98rem;
+  line-height: 1.75;
+  color: #333;
+  font-style: italic;
+  flex: 1;
+}
+.testimonial-card blockquote::before {
+  content: "\201C";
+  color: #67ABE9;
+  font-size: 2.4rem;
+  line-height: 0;
+  vertical-align: -0.35em;
+  margin-right: 4px;
+  font-family: Georgia, serif;
+  font-style: normal;
+}
+.testimonial-card blockquote::after {
+  content: "\201D";
+  color: #67ABE9;
+  font-size: 2.4rem;
+  line-height: 0;
+  vertical-align: -0.6em;
+  margin-left: 2px;
+  font-family: Georgia, serif;
+  font-style: normal;
+}
+.testimonial-attribution {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 0.85rem;
+  line-height: 1.5;
+  color: #00102E;
+  padding-top: 16px;
+  border-top: 1px solid #e3e8ef;
+}
+.testimonial-attribution .name {
+  font-weight: 700;
+  display: block;
+  letter-spacing: 0.01em;
+}
+.testimonial-attribution .role {
+  color: #555;
+  font-weight: 400;
+  font-size: 0.8rem;
+  display: block;
+  margin-top: 3px;
+}
+
+// ── Video presentations (Astra Assessments page) ────────────────────────
+.video-block {
+  max-width: 900px;
+  margin: 40px auto 0;
+}
+.video-block + .video-block { margin-top: 72px; }
+.video-block-title {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.15rem;
+  font-weight: 700;
+  color: #00102E;
+  margin: 0 0 12px;
+  letter-spacing: -0.005em;
+  text-align: center;
+}
+.video-block-desc {
+  color: #555;
+  font-size: 0.95rem;
+  line-height: 1.75;
+  margin: 0 auto 24px;
+  max-width: 780px;
+  text-align: center;
+}
+.video-embed {
+  position: relative;
+  width: 100%;
+  padding-bottom: 56.25%; // 16:9 aspect ratio
+  height: 0;
+  overflow: hidden;
+  background: #000;
+  box-shadow: 0 8px 32px rgba(11, 37, 69, 0.18);
+}
+.video-embed iframe {
+  position: absolute;
+  top: 0; left: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+.video-chapters {
+  margin-top: 24px;
+  padding: 22px 26px;
+  background: #F4F5F7;
+  border: 1px solid #e3e8ef;
+  border-left: 4px solid #67ABE9;
+}
+.video-chapters-label {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: #233452;
+  margin: 0 0 12px;
+}
+.video-chapters ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  font-size: 0.95rem;
+  line-height: 1.7;
+  color: #333;
+}
+.video-chapters ul li {
+  padding: 8px 0;
+  border-bottom: 1px dashed #d5dbe4;
+}
+.video-chapters ul li:last-child { border-bottom: 0; }
+.video-chapters ul li a {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  color: #3d7fb0;
+  text-decoration: none;
+  letter-spacing: 0.01em;
+  margin-right: 4px;
+}
+.video-chapters ul li a:hover {
+  color: #00102E;
+  text-decoration: underline;
+}
+.video-chapters-note {
+  font-size: 0.82rem;
+  color: #888;
+  margin: 14px 0 0;
+}
+

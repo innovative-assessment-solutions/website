@@ -1,0 +1,93 @@
+---
+title: "2026–27 Cohort"
+description: "The six Kansas districts implementing Astra as their through-year assessment system for the 2026–27 school year."
+---
+
+```{=html}
+<section class="astra-page-hero">
+  <div class="section-container">
+    <div>
+      <p class="astra-page-hero-eyebrow">2026–27 Cohort</p>
+      <div class="astra-page-hero-h1" role="heading" aria-level="1">Six Kansas districts, six custom assessments, one through year assessment system.</div>
+      <p class="lead">
+        The 2026–27 Astra cohort spans six Kansas districts &mdash; urban and rural, small and large. Each district picks its own standards, its own reading passage topics, and its own quarterly cadence &mdash; and Astra builds an assessment program around them.
+      </p>
+    </div>
+    <div class="astra-page-hero-mark">
+      <img src="assets/images/Astra_Logo_Color.png" alt="Astra">
+    </div>
+  </div>
+</section>
+
+<section class="section-white">
+  <div class="section-container">
+    <p class="astra-spotlight-eyebrow" style="color:#233452; text-align:center;">Where They Are</p>
+    <h2 class="section-heading" style="text-align:center;">The cohort, at a glance.</h2>
+    <hr class="section-divider">
+    <p style="max-width:820px; margin:0 auto 40px; color:#555; font-size:1rem; line-height:1.85; text-align:center;">
+      The map below shows each of the six 2026–27 cohort districts. Click any pin for the district name and location details.
+    </p>
+
+    <!-- ── GOOGLE MY MAPS EMBED ────────────────────────────────────────────────
+         Replace the iframe src below with the embed URL from your Google My Maps.
+         From My Maps: Share → "Anyone with link can view" → ⋮ menu → "Embed on my site" → copy iframe.
+         Paste just the src="…" value between the quotes on the next line.               -->
+    <div class="cohort-map">
+      <iframe
+        src="https://www.google.com/maps/d/embed?mid=17DUBqxOMC5OiG3412oMKxzQnvGAu4TU&ehbc=2E312F&noprof=1"
+        title="2026–27 Astra Cohort — Kansas districts"
+        width="100%"
+        height="480"
+        style="border:0;"
+        allowfullscreen
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+  </div>
+</section>
+
+<section class="section-light">
+  <div class="section-container">
+    <p class="astra-spotlight-eyebrow" style="color:#233452; text-align:center;">The Districts</p>
+    <h2 class="section-heading" style="text-align:center;">Who's in the cohort.</h2>
+    <hr class="section-divider">
+
+    <div class="cohort-grid">
+      <div class="cohort-card">
+        <h3>Dodge City Public Schools</h3>
+        <p class="cohort-usd">USD 443</p>
+      </div>
+      <div class="cohort-card">
+        <h3>Geary County Unified School District</h3>
+        <p class="cohort-usd">USD 475</p>
+      </div>
+      <div class="cohort-card">
+        <h3>Great Bend Public Schools</h3>
+        <p class="cohort-usd">USD 428</p>
+      </div>
+      <div class="cohort-card">
+        <h3>Humboldt Public Schools</h3>
+        <p class="cohort-usd">USD 258</p>
+      </div>
+      <div class="cohort-card">
+        <h3>Kansas City Kansas Public Schools</h3>
+        <p class="cohort-usd">USD 500</p>
+      </div>
+      <div class="cohort-card">
+        <h3>Olathe Public Schools</h3>
+        <p class="cohort-usd">USD 233</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="cta-banner">
+  <div class="section-container">
+    <h2>Interested in a future cohort?</h2>
+    <p>Districts outside the 2026–27 cohort can begin the conversation now for future implementation.</p>
+    <div style="display:flex; gap:16px; justify-content:center; flex-wrap:wrap;">
+      <a href="contact.qmd" class="btn-ias">Get in Touch</a>
+    </div>
+  </div>
+</section>
+```

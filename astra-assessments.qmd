@@ -138,6 +138,123 @@ description: "Six steps from a district's scope and sequence to standard-level m
   </div>
 </section>
 
+<!-- ── TESTIMONIALS ───────────────────────────────────────────────────────────── -->
+<section class="section-light">
+  <div class="section-container">
+    <p class="astra-spotlight-eyebrow" style="color:#233452; text-align:center;">In Their Own Words</p>
+    <h2 class="section-heading" style="text-align:center;">What Kansas superintendents are saying.</h2>
+    <hr class="section-divider">
+
+    <div class="testimonial-featured">
+      <blockquote>The data from the assessment allows our staff to anchor their conversations on what's next.</blockquote>
+      <div class="testimonial-attribution">
+        <span class="name">Dr. Scott Springston</span>
+        <span class="role">Deputy Superintendent of Curriculum &amp; Instruction &mdash; Dodge City USD 443</span>
+      </div>
+    </div>
+
+    <div class="testimonial-grid">
+      <div class="testimonial-card">
+        <blockquote>Great Bend Public Schools has just wrapped up our first year partnering with IAS using through assessments (quarterly proficiency screeners) in grades 3&ndash;HS in both ELA and Math including Algebra I, Geometry, and Algebra II. It has been so successful that second grade teachers approached the district seeking to implement them starting in 2026&ndash;2027. When teachers seek out the addition of quarterly assessments, you know something good is happening!</blockquote>
+        <div class="testimonial-attribution">
+          <span class="name">JoAnn Blevins</span>
+          <span class="role">Assistant Superintendent of Curriculum and Instruction &mdash; Great Bend Public Schools USD 428</span>
+        </div>
+      </div>
+
+      <div class="testimonial-card">
+        <blockquote>When we receive our scores back, they come with a step-by-step process for our teams to use when reviewing that data. It's not just a one-look and done. There's a huge focus on how that will impact our instruction moving forward with our class, what an individual student might need, and how we might adjust our instruction the next time we teach those concepts. The built-in piece that we don't talk about a lot is the power of our teachers getting to see the questions, hearing how they are worded, and asking themselves if instruction was provided at that depth of learning. In several cases, that depth is included in our materials, but it's one of the pieces that gets left out when time runs short. This assessment and its focus on professional learning are helping us become better users of our high-quality instructional materials.</blockquote>
+        <div class="testimonial-attribution">
+          <span class="name">Dr. Amber Wheeler</span>
+          <span class="role">Superintendent &mdash; Humboldt USD 258</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ── VIDEO PRESENTATIONS ────────────────────────────────────────────────────── -->
+<section class="section-white">
+  <div class="section-container">
+    <p class="astra-spotlight-eyebrow" style="color:#233452; text-align:center;">On the Record</p>
+    <h2 class="section-heading" style="text-align:center;">Presentations to Kansas policymakers.</h2>
+    <hr class="section-divider">
+
+    <div class="video-block">
+      <h3 class="video-block-title">Kansas State Board of Education &mdash; Olathe &amp; IAS presentation (February 11, 2026)</h3>
+      <p class="video-block-desc">
+        Olathe USD 233 and IAS present on the Astra implementation. The embed below starts at the Olathe &amp; IAS portion of the meeting (about 50 minutes of substantive content). Fair warning: this is depth-of-detail material for board members and district leaders reviewing the program.
+      </p>
+
+      <div class="video-embed">
+        <iframe
+          src="https://www.youtube-nocookie.com/embed/i_3Clu277Tk?start=7023"
+          title="Kansas State Board of Education — Olathe &amp; IAS assessment segment"
+          allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          referrerpolicy="strict-origin-when-cross-origin"
+          allowfullscreen></iframe>
+      </div>
+
+      <div class="video-chapters">
+        <p class="video-chapters-label">In this segment</p>
+        <ul>
+          <li><a href="https://www.youtube.com/watch?v=i_3Clu277Tk&amp;t=7023s" target="_blank" rel="noopener">1:57:03</a> &mdash; Olathe / IAS program segment begins</li>
+          <li><a href="https://www.youtube.com/watch?v=i_3Clu277Tk&amp;t=7097s" target="_blank" rel="noopener">1:58:17</a> &mdash; <strong>Tim Reeves</strong> on how Olathe has incorporated Astra into district processes</li>
+          <li><a href="https://www.youtube.com/watch?v=i_3Clu277Tk&amp;t=7905s" target="_blank" rel="noopener">2:11:45</a> &mdash; <strong>Spencer Brown</strong> on the psychometric philosophy behind the approach</li>
+        </ul>
+        <p class="video-chapters-note"><em>Click any timestamp to open the full presentation on YouTube in a new tab.</em></p>
+      </div>
+    </div>
+
+    <div class="video-block">
+      <h3 class="video-block-title">Dr. Amber Wheeler on Astra</h3>
+      <p class="video-block-desc">
+        In this ~1 minute segment, Dr. Amber Wheeler, Superintendent of Humboldt USD 258, speaks in support of the Astra program.
+      </p>
+
+      <div class="video-embed">
+        <iframe
+          src="https://www.youtube-nocookie.com/embed/VK464V4g4VQ?start=2507&amp;end=2575"
+          title="Dr. Amber Wheeler — Humboldt USD 258 speaks on Astra"
+          allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          referrerpolicy="strict-origin-when-cross-origin"
+          allowfullscreen></iframe>
+      </div>
+
+      <p class="video-chapters-note" style="text-align:center;">
+        <em>Excerpt runs from 41:47 to 42:55. <a href="https://www.youtube.com/watch?v=VK464V4g4VQ&amp;t=2507s" target="_blank" rel="noopener">Watch on YouTube</a>.</em>
+      </p>
+    </div>
+
+    <div class="video-block">
+      <h3 class="video-block-title">Kansas House Committee on K-12 Education Budget &mdash; Conrad &amp; Templin testimony (March 4, 2026)</h3>
+      <p class="video-block-desc">
+        Dr. Zach Conrad (then of Kansas City Kansas Public Schools) and Dr. Jonathan Templin, IAS co-founder, testify to the Kansas House Committee on K-12 Education Budget. About 70 minutes total, delivered in two parts with Q&amp;A.
+      </p>
+
+      <div class="video-embed">
+        <iframe
+          src="https://www.youtube-nocookie.com/embed/cQX-a6pJNz0?start=62&amp;end=4301"
+          title="Kansas House Committee on K-12 Education Budget — Conrad &amp; Templin testimony"
+          allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          referrerpolicy="strict-origin-when-cross-origin"
+          allowfullscreen></iframe>
+      </div>
+
+      <div class="video-chapters">
+        <p class="video-chapters-label">In this segment</p>
+        <ul>
+          <li><a href="https://www.youtube.com/watch?v=cQX-a6pJNz0&amp;t=62s" target="_blank" rel="noopener">1:02</a> &mdash; <strong>Dr. Zach Conrad</strong> opens with the program's history and district context (then at KCKPS)</li>
+          <li><a href="https://www.youtube.com/watch?v=cQX-a6pJNz0&amp;t=1822s" target="_blank" rel="noopener">30:22</a> &mdash; End of Dr. Conrad's Q&amp;A</li>
+          <li><a href="https://www.youtube.com/watch?v=cQX-a6pJNz0&amp;t=1920s" target="_blank" rel="noopener">32:00</a> &mdash; <strong>Dr. Jonathan Templin</strong> begins on the modeling and technical side of the project</li>
+          <li><a href="https://www.youtube.com/watch?v=cQX-a6pJNz0&amp;t=4301s" target="_blank" rel="noopener">1:11:41</a> &mdash; End of Dr. Templin's Q&amp;A and the presentation segment</li>
+        </ul>
+        <p class="video-chapters-note"><em>Click any timestamp to open the full committee hearing on YouTube in a new tab.</em></p>
+      </div>
+    </div>
+  </div>
+</section>
+
 <section class="section-white">
   <div class="section-container">
     <p class="astra-spotlight-eyebrow" style="color:#233452;">Independent Review</p>
