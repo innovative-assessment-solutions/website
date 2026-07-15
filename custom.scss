@@ -1229,3 +1229,39 @@ header#title-block-header,
   margin: 14px 0 0;
 }
 
+// ── Delivery partner strip (Astra Assessments page) ─────────────────────
+.delivery-partner {
+  padding: 28px 20px;
+  background: #F4F5F7;
+  border-top: 1px solid #e3e8ef;
+  border-bottom: 1px solid #e3e8ef;
+  text-align: center;
+}
+.delivery-partner-inner {
+  display: inline-flex;
+  align-items: center;
+  gap: 24px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.delivery-partner-text {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: #555;
+}
+.delivery-partner a {
+  display: inline-flex;
+  align-items: center;
+  line-height: 1;
+}
+.delivery-partner-logo {
+  display: block;
+  height: 46px;
+  width: auto;
+  transition: opacity 0.2s;
+}
+.delivery-partner a:hover .delivery-partner-logo { opacity: 0.75; }
+

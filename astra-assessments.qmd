@@ -95,6 +95,16 @@ description: "Six steps from a district's scope and sequence to standard-level m
   </div>
 </section>
 
+<!-- ── DELIVERY PARTNER ───────────────────────────────────────────────────────── -->
+<section class="delivery-partner">
+  <div class="delivery-partner-inner">
+    <span class="delivery-partner-text">Assessments delivered by</span>
+    <a href="https://campfirelearning.com/" target="_blank" rel="noopener">
+      <img src="assets/images/campfire_logo.svg" alt="Campfire Learning" class="delivery-partner-logo">
+    </a>
+  </div>
+</section>
+
 <section class="section-light">
   <div class="section-container">
     <div class="split-panel">
