@@ -1,6 +1,6 @@
 ---
 title: ""
-description: "About Innovative Assessment Solutions — a Kansas-rooted psychometrics firm building the Astra through-year assessment system in partnership with KSDE."
+description: "About Innovative Assessment Solutions—a Kansas-rooted psychometrics firm building the Astra through-year assessment system in partnership with KSDE."
 ---
 
 ```{=html}
@@ -26,7 +26,7 @@ description: "About Innovative Assessment Solutions — a Kansas-rooted psychome
       assessments more informative, actionable, and useful in educational settings. We combine
       novel psychometric methods with advanced data analytics, and we work directly with districts
       and state agencies. Our team's insights come from decades of experience across every phase
-      of assessment development &mdash; and from partnerships with the districts and states
+      of assessment development&mdash;and from partnerships with the districts and states
       actually using our tools.
     </p>
   </div>
@@ -39,7 +39,7 @@ description: "About Innovative Assessment Solutions — a Kansas-rooted psychome
     <hr class="section-divider">
     <p style="max-width:780px; margin:0 auto 48px; color:#555; font-size:1rem; line-height:1.85;">
       IAS is deliberately a small team. Every engagement includes direct access to the
-      psychometricians who built the platform &mdash; not a sales representative who forwards
+      psychometricians who built the platform&mdash;not a sales representative who forwards
       technical questions to a queue.
     </p>
 

@@ -36,7 +36,7 @@ description: "Six steps from a district's scope and sequence to standard-level m
       <div class="step-card">
         <span class="step-num">STEP 01</span>
         <h3>Districts select standards</h3>
-        <p>At the start of each quarter, a district's assessment lead selects the specific state standards students are being taught. Astra does not assume what you are teaching &mdash; it asks.</p>
+        <p>At the start of each quarter, a district's assessment lead selects the specific state standards students are being taught. Astra does not assume what you are teaching&mdash;it asks.</p>
       </div>
       <div class="step-card">
         <span class="step-num">STEP 02</span>
@@ -46,7 +46,7 @@ description: "Six steps from a district's scope and sequence to standard-level m
       <div class="step-card">
         <span class="step-num">STEP 03</span>
         <h3>Quarterly assessments</h3>
-        <p>Delivered within a common assessment window, the assessment is short by design &mdash; Astra is meant to inform instruction, not consume it.</p>
+        <p>Delivered within a common assessment window, the assessment is short by design&mdash;Astra is meant to inform instruction, not consume it.</p>
       </div>
       <div class="step-card">
         <span class="step-num">STEP 04</span>
@@ -74,23 +74,23 @@ description: "Six steps from a district's scope and sequence to standard-level m
     <h2 class="section-heading" style="text-align:center;">Four quarters. Two subjects. Standards you choose.</h2>
     <div style="width:60px; height:4px; background:#67ABE9; margin:0 auto 40px;"></div>
     <p style="max-width:820px; margin:0 auto 48px; color:rgba(255,255,255,0.85); font-size:1rem; line-height:1.85; text-align:center;">
-      Astra delivers four quarterly benchmark assessments across two subjects. For each quarter, districts select the specific standards being taught and, in ELA, the topical area for the quarter's reading passage. Every assessment is built around district input &mdash; nothing is prescribed by a national item bank.
+      Astra delivers four quarterly benchmark assessments across two subjects. For each quarter, districts select the specific standards being taught and, in ELA, the topical area for the quarter's reading passage. Every assessment is built around district input&mdash;nothing is prescribed by a national item bank.
     </p>
     <div style="display:grid; grid-template-columns:repeat(2,1fr); gap:28px;">
       <div class="philosophy-card">
         <h3>Mathematics</h3>
         <p style="color:#00102E; font-weight:700; font-size:1.1rem; margin:0 0 14px; line-height:1.4;">Grades 2&ndash;8, plus Algebra I, Algebra II, and Geometry.</p>
-        <p style="color:#444; font-size:0.95rem; line-height:1.7; margin:0;">Districts pick up to four standards for the quarter. Astra assembles a 20-item assessment &mdash; five items per standard &mdash; calibrated to those exact standards and varying in complexity so students at different ability levels are measured with equal precision.</p>
+        <p style="color:#444; font-size:0.95rem; line-height:1.7; margin:0;">Districts pick up to four standards for the quarter. Astra assembles a 20-item assessment&mdash;five items per standard&mdash;calibrated to those exact standards and varying in complexity so students at different ability levels are measured with equal precision.</p>
       </div>
       <div class="philosophy-card">
         <h3>English Language Arts</h3>
         <p style="color:#00102E; font-weight:700; font-size:1.1rem; margin:0 0 14px; line-height:1.4;">Grades 2 through high school.</p>
-        <p style="color:#444; font-size:0.95rem; line-height:1.7; margin:0;">Districts pick up to four standards plus the topical area for the quarter's reading passage. Astra assembles 20 items &mdash; five per standard &mdash; all grounded in one shared, curriculum-relevant reading passage that anchors the entire assessment.</p>
+        <p style="color:#444; font-size:0.95rem; line-height:1.7; margin:0;">Districts pick up to four standards plus the topical area for the quarter's reading passage. Astra assembles 20 items&mdash;five per standard&mdash;all grounded in one shared, curriculum-relevant reading passage that anchors the entire assessment.</p>
       </div>
     </div>
     <div style="max-width:820px; margin:48px auto 0; padding:24px 30px; background:rgba(255,255,255,0.08); border-left:4px solid #67ABE9; border-radius:4px; color:rgba(255,255,255,0.90); font-size:0.95rem; line-height:1.75;">
       <strong style="color:white;">How results are reported.</strong>
-      Every report shows results at the standard level &mdash; teachers see how each student, and the class, performed on every standard assessed. Alongside the standard-level report, each student receives an overall <em>longitudinal prediction</em> of their end-of-year KAP score. As more quarterly data accumulates across the year, that prediction becomes more precise.
+      Every report shows results at the standard level&mdash;teachers see how each student, and the class, performed on every standard assessed. Alongside the standard-level report, each student receives an overall <em>longitudinal prediction</em> of their end-of-year KAP score. As more quarterly data accumulates across the year, that prediction becomes more precise.
     </div>
   </div>
 </section>
@@ -116,7 +116,7 @@ description: "Six steps from a district's scope and sequence to standard-level m
           Composite scores at the subject level tell a teacher that a class is above or below proficient. They do not tell that teacher which fractions standard the class missed, which standard is the class is strong on, or which standard needs reteaching next week. Astra reports resolve those questions at the level teachers actually plan instruction around.
         </p>
         <p style="color:#555; font-size:1rem; line-height:1.85; margin:0;">
-          Each report shows every standard assessed that quarter, the items and item responses of each student, and an overall prediction of how students will perform on the KAP assessment at the end of the year. Teachers are not asked to interpret psychometric jargon &mdash; the report speaks in the same units teachers use to teach.
+          Each report shows every standard assessed that quarter, the items and item responses of each student, and an overall prediction of how students will perform on the KAP assessment at the end of the year. Teachers are not asked to interpret psychometric jargon&mdash;the report speaks in the same units teachers use to teach.
         </p>
       </div>
       <div class="split-panel-image">
@@ -141,7 +141,7 @@ description: "Six steps from a district's scope and sequence to standard-level m
         </p>
         <div class="ias-callout" style="background:rgba(255,255,255,0.10); border-left-color:#67ABE9; color:rgba(255,255,255,0.90);">
           <strong style="color:white;">Item release, quarter by quarter.</strong>
-          Unlike national benchmark products that keep items secret, Astra releases previously administered items each quarter for instructional use. Teachers can use released items in classroom review, formative check-ins, and parent conferences &mdash; turning the assessment into an instructional resource, not just a measurement.
+          Unlike national benchmark products that keep items secret, Astra releases previously administered items each quarter for instructional use. Teachers can use released items in classroom review, formative check-ins, and parent conferences&mdash;turning the assessment into an instructional resource, not just a measurement.
         </div>
       </div>
     </div>
@@ -159,7 +159,7 @@ description: "Six steps from a district's scope and sequence to standard-level m
       <blockquote>The data from the assessment allows our staff to anchor their conversations on what's next.</blockquote>
       <div class="testimonial-attribution">
         <span class="name">Dr. Scott Springston</span>
-        <span class="role">Deputy Superintendent of Curriculum &amp; Instruction &mdash; Dodge City USD 443</span>
+        <span class="role">Deputy Superintendent of Curriculum &amp; Instruction&mdash;Dodge City USD 443</span>
       </div>
     </div>
 
@@ -168,7 +168,7 @@ description: "Six steps from a district's scope and sequence to standard-level m
         <blockquote>Great Bend Public Schools has just wrapped up our first year partnering with IAS using through assessments (quarterly proficiency screeners) in grades 3&ndash;HS in both ELA and Math including Algebra I, Geometry, and Algebra II. It has been so successful that second grade teachers approached the district seeking to implement them starting in 2026&ndash;2027. When teachers seek out the addition of quarterly assessments, you know something good is happening!</blockquote>
         <div class="testimonial-attribution">
           <span class="name">JoAnn Blevins</span>
-          <span class="role">Assistant Superintendent of Curriculum and Instruction &mdash; Great Bend Public Schools USD 428</span>
+          <span class="role">Assistant Superintendent of Curriculum and Instruction&mdash;Great Bend Public Schools USD 428</span>
         </div>
       </div>
 
@@ -176,7 +176,7 @@ description: "Six steps from a district's scope and sequence to standard-level m
         <blockquote>When we receive our scores back, they come with a step-by-step process for our teams to use when reviewing that data. It's not just a one-look and done. There's a huge focus on how that will impact our instruction moving forward with our class, what an individual student might need, and how we might adjust our instruction the next time we teach those concepts. The built-in piece that we don't talk about a lot is the power of our teachers getting to see the questions, hearing how they are worded, and asking themselves if instruction was provided at that depth of learning. In several cases, that depth is included in our materials, but it's one of the pieces that gets left out when time runs short. This assessment and its focus on professional learning are helping us become better users of our high-quality instructional materials.</blockquote>
         <div class="testimonial-attribution">
           <span class="name">Dr. Amber Wheeler</span>
-          <span class="role">Superintendent &mdash; Humboldt USD 258</span>
+          <span class="role">Superintendent&mdash;Humboldt USD 258</span>
         </div>
       </div>
     </div>
@@ -191,7 +191,7 @@ description: "Six steps from a district's scope and sequence to standard-level m
     <hr class="section-divider">
 
     <div class="video-block">
-      <h3 class="video-block-title">Kansas State Board of Education &mdash; Olathe &amp; IAS presentation (February 11, 2026)</h3>
+      <h3 class="video-block-title">Kansas State Board of Education&mdash;Olathe &amp; IAS presentation (February 11, 2026)</h3>
       <p class="video-block-desc">
         Olathe USD 233 and IAS present on the Astra implementation. The embed below starts at the Olathe &amp; IAS portion of the meeting (about 50 minutes of substantive content). Fair warning: this is depth-of-detail material for board members and district leaders reviewing the program.
       </p>
@@ -199,7 +199,7 @@ description: "Six steps from a district's scope and sequence to standard-level m
       <div class="video-embed">
         <iframe
           src="https://www.youtube-nocookie.com/embed/i_3Clu277Tk?start=7023"
-          title="Kansas State Board of Education — Olathe &amp; IAS assessment segment"
+          title="Kansas State Board of Education—Olathe &amp; IAS assessment segment"
           allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
           referrerpolicy="strict-origin-when-cross-origin"
           allowfullscreen></iframe>
@@ -208,9 +208,9 @@ description: "Six steps from a district's scope and sequence to standard-level m
       <div class="video-chapters">
         <p class="video-chapters-label">In this segment</p>
         <ul>
-          <li><a href="https://www.youtube.com/watch?v=i_3Clu277Tk&amp;t=7023s" target="_blank" rel="noopener">1:57:03</a> &mdash; Olathe / IAS program segment begins</li>
-          <li><a href="https://www.youtube.com/watch?v=i_3Clu277Tk&amp;t=7097s" target="_blank" rel="noopener">1:58:17</a> &mdash; <strong>Tim Reeves</strong> on how Olathe has incorporated Astra into district processes</li>
-          <li><a href="https://www.youtube.com/watch?v=i_3Clu277Tk&amp;t=7905s" target="_blank" rel="noopener">2:11:45</a> &mdash; <strong>Spencer Brown</strong> on the psychometric philosophy behind the approach</li>
+          <li><a href="https://www.youtube.com/watch?v=i_3Clu277Tk&amp;t=7023s" target="_blank" rel="noopener">1:57:03</a>&mdash;Olathe / IAS program segment begins</li>
+          <li><a href="https://www.youtube.com/watch?v=i_3Clu277Tk&amp;t=7097s" target="_blank" rel="noopener">1:58:17</a>&mdash;<strong>Tim Reeves</strong> on how Olathe has incorporated Astra into district processes</li>
+          <li><a href="https://www.youtube.com/watch?v=i_3Clu277Tk&amp;t=7905s" target="_blank" rel="noopener">2:11:45</a>&mdash;<strong>Spencer Brown</strong> on the psychometric philosophy behind the approach</li>
         </ul>
         <p class="video-chapters-note"><em>Click any timestamp to open the full presentation on YouTube in a new tab.</em></p>
       </div>
@@ -225,7 +225,7 @@ description: "Six steps from a district's scope and sequence to standard-level m
       <div class="video-embed">
         <iframe
           src="https://www.youtube-nocookie.com/embed/VK464V4g4VQ?start=2507&amp;end=2575"
-          title="Dr. Amber Wheeler — Humboldt USD 258 speaks on Astra"
+          title="Dr. Amber Wheeler—Humboldt USD 258 speaks on Astra"
           allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
           referrerpolicy="strict-origin-when-cross-origin"
           allowfullscreen></iframe>
@@ -237,7 +237,7 @@ description: "Six steps from a district's scope and sequence to standard-level m
     </div>
 
     <div class="video-block">
-      <h3 class="video-block-title">Kansas House Committee on K-12 Education Budget &mdash; Conrad &amp; Templin testimony (March 4, 2026)</h3>
+      <h3 class="video-block-title">Kansas House Committee on K-12 Education Budget&mdash;Conrad &amp; Templin testimony (March 4, 2026)</h3>
       <p class="video-block-desc">
         Dr. Zach Conrad (then of Kansas City Kansas Public Schools) and Dr. Jonathan Templin, IAS co-founder, testify to the Kansas House Committee on K-12 Education Budget. About 70 minutes total, delivered in two parts with Q&amp;A.
       </p>
@@ -245,7 +245,7 @@ description: "Six steps from a district's scope and sequence to standard-level m
       <div class="video-embed">
         <iframe
           src="https://www.youtube-nocookie.com/embed/cQX-a6pJNz0?start=62&amp;end=4301"
-          title="Kansas House Committee on K-12 Education Budget — Conrad &amp; Templin testimony"
+          title="Kansas House Committee on K-12 Education Budget—Conrad &amp; Templin testimony"
           allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
           referrerpolicy="strict-origin-when-cross-origin"
           allowfullscreen></iframe>
@@ -254,10 +254,10 @@ description: "Six steps from a district's scope and sequence to standard-level m
       <div class="video-chapters">
         <p class="video-chapters-label">In this segment</p>
         <ul>
-          <li><a href="https://www.youtube.com/watch?v=cQX-a6pJNz0&amp;t=62s" target="_blank" rel="noopener">1:02</a> &mdash; <strong>Dr. Zach Conrad</strong> opens with the program's history and district context (then at KCKPS)</li>
-          <li><a href="https://www.youtube.com/watch?v=cQX-a6pJNz0&amp;t=1822s" target="_blank" rel="noopener">30:22</a> &mdash; End of Dr. Conrad's Q&amp;A</li>
-          <li><a href="https://www.youtube.com/watch?v=cQX-a6pJNz0&amp;t=1920s" target="_blank" rel="noopener">32:00</a> &mdash; <strong>Dr. Jonathan Templin</strong> begins on the modeling and technical side of the project</li>
-          <li><a href="https://www.youtube.com/watch?v=cQX-a6pJNz0&amp;t=4301s" target="_blank" rel="noopener">1:11:41</a> &mdash; End of Dr. Templin's Q&amp;A and the presentation segment</li>
+          <li><a href="https://www.youtube.com/watch?v=cQX-a6pJNz0&amp;t=62s" target="_blank" rel="noopener">1:02</a>&mdash;<strong>Dr. Zach Conrad</strong> opens with the program's history and district context (then at KCKPS)</li>
+          <li><a href="https://www.youtube.com/watch?v=cQX-a6pJNz0&amp;t=1822s" target="_blank" rel="noopener">30:22</a>&mdash;End of Dr. Conrad's Q&amp;A</li>
+          <li><a href="https://www.youtube.com/watch?v=cQX-a6pJNz0&amp;t=1920s" target="_blank" rel="noopener">32:00</a>&mdash;<strong>Dr. Jonathan Templin</strong> begins on the modeling and technical side of the project</li>
+          <li><a href="https://www.youtube.com/watch?v=cQX-a6pJNz0&amp;t=4301s" target="_blank" rel="noopener">1:11:41</a>&mdash;End of Dr. Templin's Q&amp;A and the presentation segment</li>
         </ul>
         <p class="video-chapters-note"><em>Click any timestamp to open the full committee hearing on YouTube in a new tab.</em></p>
       </div>

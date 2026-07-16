@@ -1,6 +1,6 @@
 ---
 title: ""
-description: "Contact Innovative Assessment Solutions — we're here to help you transform your district's assessment strategy."
+description: "Contact Innovative Assessment Solutions—we're here to help you transform your district's assessment strategy."
 ---
 
 ```{=html}
@@ -8,7 +8,7 @@ description: "Contact Innovative Assessment Solutions — we're here to help you
 <section class="ias-hero">
   <div class="section-container">
     <div class="ias-hero-h1" role="heading" aria-level="1">Revolutionizing Educational Excellence Together.</div>
-    <p class="hero-subtitle">Reach out — we're here to help every step of the way.</p>
+    <p class="hero-subtitle">Reach out—we're here to help every step of the way.</p>
   </div>
 </section>
 
@@ -33,7 +33,7 @@ description: "Contact Innovative Assessment Solutions — we're here to help you
       SETUP: This form delivers submissions to jonathan@innovativeassessmentsolutions.com via Formspree.
       One-time setup (free):
         1. Sign up at https://formspree.io with jonathan@innovativeassessmentsolutions.com
-        2. Create a new form — you'll receive an endpoint like https://formspree.io/f/xyzabcde
+        2. Create a new form—you'll receive an endpoint like https://formspree.io/f/xyzabcde
         3. Replace YOUR_FORMSPREE_ENDPOINT below with your endpoint, then re-render the site.
     -->
     <div class="contact-wrapper">

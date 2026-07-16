@@ -10,7 +10,7 @@ description: "The six Kansas districts implementing Astra as their through-year 
       <p class="astra-page-hero-eyebrow">2026–27 Cohort</p>
       <div class="astra-page-hero-h1" role="heading" aria-level="1">Six Kansas districts, six custom assessments, one through year assessment system.</div>
       <p class="lead">
-        The 2026–27 Astra cohort spans six Kansas districts &mdash; urban and rural, small and large. Each district picks its own standards, its own reading passage topics, and its own quarterly cadence &mdash; and Astra builds an assessment program around them.
+        The 2026–27 Astra cohort spans six Kansas districts&mdash;urban and rural, small and large. Each district picks its own standards, its own reading passage topics, and its own quarterly cadence&mdash;and Astra builds an assessment program around them.
       </p>
     </div>
     <div class="astra-page-hero-mark">
@@ -35,7 +35,7 @@ description: "The six Kansas districts implementing Astra as their through-year 
     <div class="cohort-map">
       <iframe
         src="https://www.google.com/maps/d/embed?mid=17DUBqxOMC5OiG3412oMKxzQnvGAu4TU&ehbc=2E312F&noprof=1"
-        title="2026–27 Astra Cohort — Kansas districts"
+        title="2026–27 Astra Cohort—Kansas districts"
         width="100%"
         height="480"
         style="border:0;"

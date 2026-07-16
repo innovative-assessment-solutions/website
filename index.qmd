@@ -1,6 +1,6 @@
 ---
 title: ""
-description: "Innovative Assessment Solutions — Informative, Actionable, and Useful"
+description: "Innovative Assessment Solutions—Informative, Actionable, and Useful"
 ---
 
 ```{=html}
@@ -31,7 +31,7 @@ description: "Innovative Assessment Solutions — Informative, Actionable, and U
     <hr class="section-divider">
     <p style="max-width:740px; margin:0 auto; color:#555; font-size:1rem; line-height:1.85;">
       Our mission is to build assessments that turn student data into instructional action.
-      Whether through Astra &mdash; our flagship through-year system in Kansas &mdash; or through
+      Whether through Astra&mdash;our flagship through-year system in Kansas&mdash;or through
       direct partnerships with assessment vendors, districts, and states, IAS delivers assessment
       data educators can actually use to guide instruction, accelerate learning, and improve
       results.
@@ -42,7 +42,7 @@ description: "Innovative Assessment Solutions — Informative, Actionable, and U
   </div>
 </section>
 
-<!-- ── ASTRA SPOTLIGHT — PIVOT TO KANSAS ────────────────────────────────────── -->
+<!-- ── ASTRA SPOTLIGHT—PIVOT TO KANSAS ────────────────────────────────────── -->
 <section class="astra-spotlight">
   <div class="section-container">
     <div class="astra-spotlight-grid">
@@ -50,7 +50,7 @@ description: "Innovative Assessment Solutions — Informative, Actionable, and U
         <p class="astra-spotlight-eyebrow">Our Kansas work</p>
         <h2>Astra: a through-year assessment system built in Kansas, specifically for Kansas</h2>
         <p class="lead">
-          Astra is IAS's flagship assessment product — a quarterly benchmark platform aligned to
+          Astra is IAS's flagship assessment product—a quarterly benchmark platform aligned to
           each district's scope and sequence, developed in partnership with the Kansas districts.
           We release all assessment items and feature standard-level item response reports that
           arrive within days of each administration. Our quarterly composite scores explain
@@ -62,7 +62,7 @@ description: "Innovative Assessment Solutions — Informative, Actionable, and U
         </div>
       </div>
       <div class="astra-spotlight-mark">
-        <img src="assets/images/Astra_Logo_Color.png" alt="Astra — a Kansas through-year assessment system by IAS">
+        <img src="assets/images/Astra_Logo_Color.png" alt="Astra—a Kansas through-year assessment system by IAS">
         <div class="mark-caption">Ad Astra Per Aspera</div>
       </div>
     </div>
