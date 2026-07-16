@@ -10,7 +10,7 @@ project:
 website:
   title: "Innovative Assessment Solutions"
   favicon: assets/images/cropped-favicon-05.png 
-  description: "Kansas's through-year assessment system, built by psychometricians in partnership with KSDE."
+  description: "Kansas's through-year assessment system, built for Kansas districts."
 
   navbar:
     logo: assets/images/IAS_Logo_Color.png

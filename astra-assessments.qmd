@@ -24,7 +24,7 @@ description: "Six steps from a district's scope and sequence to standard-level m
 
 <section class="ias-badges">
   <div class="ias-badge">Kansas-Aligned Design<small>Built around Kansas standards and district scope and sequence</small></div>
-  <div class="ias-badge">Real Districts, Real Gains<small>Humboldt USD saw an 11-point rise in students at KAP proficient or advanced in Year 1</small></div>
+  <div class="ias-badge">Real Districts, Real Gains<small>Humboldt USD 258 saw an 11-point rise in students at KAP proficient or advanced in Year 1</small></div>
   <div class="ias-badge">Pending IADA Review<small>Application submitted to the U.S. Department of Education</small></div>
 </section>
 
@@ -113,7 +113,7 @@ description: "Six steps from a district's scope and sequence to standard-level m
         <h2 class="section-heading">Standard-level results, not a single composite score.</h2>
         <hr class="section-divider-left">
         <p style="color:#555; font-size:1rem; line-height:1.85; margin-bottom:20px;">
-          Composite scores at the subject level tell a teacher that a class is above or below proficient. They do not tell that teacher which fractions standard the class missed, which standard the class is strong on, or which standard needs reteaching next week. Astra reports resolve those questions at the level teachers actually plan instruction around.
+          Composite scores at the subject level tell a teacher that a class is above or below proficient. They do not tell that teacher which fraction standard the class missed, which standard the class is strong on, or which standard needs reteaching next week. Astra reports resolve those questions at the level teachers actually plan instruction around.
         </p>
         <p style="color:#555; font-size:1rem; line-height:1.85; margin:0;">
           Each report shows every standard assessed that quarter, the items and item responses of each student, and an overall prediction of how students will perform on the KAP assessment at the end of the year. Teachers are not asked to interpret psychometric jargon&mdash;the report speaks in the same units teachers use to teach.
@@ -165,7 +165,7 @@ description: "Six steps from a district's scope and sequence to standard-level m
 
     <div class="testimonial-grid">
       <div class="testimonial-card">
-        <blockquote>Great Bend Public Schools has just wrapped up our first year partnering with IAS using through assessments (quarterly proficiency screeners) in grades 3&ndash;HS in both ELA and Math including Algebra I, Geometry, and Algebra II. It has been so successful that second grade teachers approached the district seeking to implement them starting in 2026&ndash;2027. When teachers seek out the addition of quarterly assessments, you know something good is happening!</blockquote>
+        <blockquote>Great Bend Public Schools has just wrapped up our first year partnering with IAS using through-year assessments (quarterly proficiency screeners) in grades 3&ndash;HS in both ELA and Math including Algebra I, Geometry, and Algebra II. It has been so successful that second grade teachers approached the district seeking to implement them starting in 2026&ndash;2027. When teachers seek out the addition of quarterly assessments, you know something good is happening!</blockquote>
         <div class="testimonial-attribution">
           <span class="name">JoAnn Blevins</span>
           <span class="role">Assistant Superintendent of Curriculum and Instruction&mdash;Great Bend Public Schools USD 428</span>

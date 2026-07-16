@@ -47,13 +47,14 @@ description: "Innovative Assessment Solutions—Informative, Actionable, and Use
   <div class="section-container">
     <div class="astra-spotlight-grid">
       <div>
-        <p class="astra-spotlight-eyebrow">Our Kansas work</p>
+        <p class="astra-spotlight-eyebrow">Our Kansas Work</p>
         <h2>Astra: a through-year assessment system built in Kansas, specifically for Kansas</h2>
         <p class="lead">
           Astra is IAS's flagship assessment product—a quarterly benchmark platform aligned to
           each district's scope and sequence, developed in partnership with the Kansas districts.
-          We release all assessment items and feature standard-level item response reports that
-          arrive within days of each administration. Our quarterly composite scores explain
+          We release every assessment item and deliver standard-by-standard reports on each
+          student's item responses within days of each administration. Our quarterly composite
+          scores explain
           70–90% of the variance in end-of-year KAP scores.
         </p>
         <div style="display:flex; gap:14px; flex-wrap:wrap;">
