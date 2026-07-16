@@ -35,7 +35,7 @@ website:
     background: "#0a3555"
     foreground: "white"
     center: |
-      © 2026 Innovative Assessment Solutions, LLC
+      © 2026 Innovative Assessment Solutions, A Kansas Corporation
 
 format:
   html:
