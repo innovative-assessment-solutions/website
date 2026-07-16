@@ -650,6 +650,9 @@ header#title-block-header,
   [style*="grid-template-columns:repeat(3"] {
     grid-template-columns: 1fr !important;
   }
+  [style*="grid-template-columns:repeat(2"] {
+    grid-template-columns: 1fr !important;
+  }
   [style*="grid-template-columns:1fr 1fr"] {
     grid-template-columns: 1fr !important;
   }
