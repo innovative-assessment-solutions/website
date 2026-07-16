@@ -113,7 +113,7 @@ description: "Six steps from a district's scope and sequence to standard-level m
         <h2 class="section-heading">Standard-level results, not a single composite score.</h2>
         <hr class="section-divider-left">
         <p style="color:#555; font-size:1rem; line-height:1.85; margin-bottom:20px;">
-          Composite scores at the subject level tell a teacher that a class is above or below proficient. They do not tell that teacher which fractions standard the class missed, which standard is the class is strong on, or which standard needs reteaching next week. Astra reports resolve those questions at the level teachers actually plan instruction around.
+          Composite scores at the subject level tell a teacher that a class is above or below proficient. They do not tell that teacher which fractions standard the class missed, which standard the class is strong on, or which standard needs reteaching next week. Astra reports resolve those questions at the level teachers actually plan instruction around.
         </p>
         <p style="color:#555; font-size:1rem; line-height:1.85; margin:0;">
           Each report shows every standard assessed that quarter, the items and item responses of each student, and an overall prediction of how students will perform on the KAP assessment at the end of the year. Teachers are not asked to interpret psychometric jargon&mdash;the report speaks in the same units teachers use to teach.
