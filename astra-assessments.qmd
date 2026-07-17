@@ -24,7 +24,7 @@ description: "Six steps from a district's scope and sequence to standard-level m
 
 <section class="ias-badges">
   <div class="ias-badge">Kansas-Aligned Design<small>Built around Kansas standards and district scope and sequence</small></div>
-  <div class="ias-badge">Real Districts, Real Gains<small>Humboldt USD 258 saw an 11-point rise in students at KAP proficient or advanced in Year 1</small></div>
+  <div class="ias-badge">Real Districts, Real Gains<small>Humboldt USD 258 saw an 11-point rise in students at KAP proficient or advanced performance levels in Year 1</small></div>
   <div class="ias-badge">Pending IADA Review<small>Application submitted to the U.S. Department of Education</small></div>
 </section>
 
