@@ -9,8 +9,9 @@ project:
 
 website:
   title: "Innovative Assessment Solutions"
-  favicon: assets/images/cropped-favicon-05.png 
+  favicon: assets/images/cropped-favicon-05.png
   description: "Kansas's through-year assessment system, built for Kansas districts."
+  google-analytics: "G-QT59Z8C1DC"
 
   navbar:
     logo: assets/images/IAS_Logo_Color.png
