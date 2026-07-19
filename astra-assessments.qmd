@@ -95,13 +95,23 @@ description: "Six steps from a district's scope and sequence to standard-level m
   </div>
 </section>
 
-<!-- ── DELIVERY PARTNER ───────────────────────────────────────────────────────── -->
-<section class="delivery-partner">
-  <div class="delivery-partner-inner">
-    <span class="delivery-partner-text">Assessments delivered by</span>
-    <a href="https://campfirelearning.com/" target="_blank" rel="noopener">
-      <img src="assets/images/campfire_logo.svg" alt="Campfire Learning" class="delivery-partner-logo">
-    </a>
+<!-- ── POWERED BY CAMPFIRE ────────────────────────────────────────────────────── -->
+<section class="section-white powered-by-campfire">
+  <div class="section-container">
+    <div class="powered-grid">
+      <div class="powered-image">
+        <img src="assets/images/campfire_classroom.png" alt="Campfire Classroom — an Astra Unit 1 assessment showing a bar-graph item and question navigation panel">
+      </div>
+      <div class="powered-copy">
+        <p class="powered-eyebrow">Powered by</p>
+        <a href="https://campfirelearning.com/" target="_blank" rel="noopener" class="powered-logo-link">
+          <img src="assets/images/campfire_logo.svg" alt="Campfire Learning" class="powered-logo">
+        </a>
+        <p>Every Astra assessment is built and delivered on Campfire, the technology engine behind the experience from start to finish.</p>
+        <p>Assessments are authored in <strong>Campfire Studio</strong>, a collaborative authoring platform that supports 30+ item types and makes standards-aligned content development fast and flexible.</p>
+        <p>From there, <strong>Campfire Classroom</strong> brings it to life for students&mdash;a full assessment platform built for effortless access and a smooth testing experience. Secure and accessible by design, it integrates seamlessly with district SSO and rostering systems for painless setup, and gives educators real-time performance data for clear, immediate insight into student progress.</p>
+      </div>
+    </div>
   </div>
 </section>
 

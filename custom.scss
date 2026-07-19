@@ -1268,3 +1268,58 @@ header#title-block-header,
 }
 .delivery-partner a:hover .delivery-partner-logo { opacity: 0.75; }
 
+// ── Powered by Campfire — expanded two-column section on Astra Assessments
+.powered-by-campfire {
+  padding: clamp(60px, 8vw, 96px) 20px;
+  background: #F4F5F7;
+  border-top: 1px solid #e3e8ef;
+  border-bottom: 1px solid #e3e8ef;
+}
+.powered-grid {
+  display: grid;
+  grid-template-columns: 1.05fr 1fr;
+  gap: clamp(32px, 5vw, 64px);
+  align-items: center;
+  max-width: 1140px;
+  margin: 0 auto;
+}
+@media (max-width: 900px) {
+  .powered-grid { grid-template-columns: 1fr; }
+}
+.powered-image img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border: 1px solid #e3e8ef;
+  border-radius: 6px;
+  background: #ffffff;
+  box-shadow: 0 14px 42px rgba(11, 37, 69, 0.14);
+}
+.powered-copy .powered-eyebrow {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: #555;
+  margin: 0 0 14px;
+}
+.powered-logo-link {
+  display: inline-block;
+  margin: 0 0 28px;
+  transition: opacity 0.2s;
+}
+.powered-logo-link:hover { opacity: 0.75; }
+.powered-logo {
+  display: block;
+  height: 56px;
+  width: auto;
+}
+.powered-copy p {
+  color: #333;
+  font-size: 1rem;
+  line-height: 1.75;
+  margin: 0 0 18px;
+}
+.powered-copy p:last-child { margin-bottom: 0; }
+
