@@ -91,7 +91,7 @@ description: "About Innovative Assessment Solutions—a Kansas assessment compan
           </div>
           <div class="team-card-body">
             <h3>Jacinta Olson, Ph.D.</h3>
-            <p class="team-role">Senior Psychometrician</p>
+            <p class="team-role">Director of Assessment and Research</p>
             <p>
               Jacinta has over five years of experience teaching mathematics in Iowa and Arizona.
               She blends educational measurement, cognitive psychology, and educational practices
