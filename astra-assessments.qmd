@@ -289,9 +289,10 @@ description: "Six steps from a district's scope and sequence to standard-level m
 <section class="cta-banner">
   <div class="section-container">
     <h2>See it applied to your district.</h2>
-    <p>Scheduling a 20-minute walkthrough is the fastest way to know whether Astra fits your needs.</p>
+    <p>Scheduling a 20-minute walkthrough is the fastest way to know whether Astra fits your needs. Kansas districts ready to join can sign up directly through the KSDE form.</p>
     <div style="display:flex; gap:16px; justify-content:center; flex-wrap:wrap;">
       <a href="contact.qmd" class="btn-ias">Schedule Your Walkthrough</a>
+      <a href="https://www.surveymonkey.com/r/BFBPQTD" target="_blank" rel="noopener" class="btn-ias-outline">Kansas District Sign-Up</a>
     </div>
   </div>
 </section>
