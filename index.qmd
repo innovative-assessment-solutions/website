@@ -70,6 +70,37 @@ description: "Innovative Assessment Solutions—Informative, Actionable, and Use
   </div>
 </section>
 
+<!-- ── IN THE NEWS ────────────────────────────────────────────────────────────── -->
+<section class="section-light">
+  <div class="section-container">
+    <p class="astra-spotlight-eyebrow" style="color:#233452; text-align:center;">In the News</p>
+    <h2 class="section-heading" style="text-align:center;">Recent coverage of Astra and the Kansas pilot.</h2>
+    <hr class="section-divider">
+    <div class="news-grid">
+      <article class="news-card">
+        <p class="news-meta"><span class="news-source">JC Post</span><span class="news-date">August 2, 2026</span></p>
+        <h3><a href="https://jcpost.com/posts/d9448047-80a5-4c6d-aeef-43f0af922ec2" target="_blank" rel="noopener">USD 475 part of new pilot approach to statewide assessment and accountability</a></h3>
+        <p>Geary County USD 475 joins five other Kansas districts implementing quarterly through-year assessments in place of a single end-of-year test for the 2026&ndash;27 school year.</p>
+      </article>
+      <article class="news-card">
+        <p class="news-meta"><span class="news-source">Kansas State Department of Education</span><span class="news-date">July 31, 2026</span></p>
+        <h3><a href="https://www.ksde.gov/news-center/news-releases/2026/07/31/kansas-receives-federal-approval-to-pilot-innovative-through-year-assessment-system" target="_blank" rel="noopener">Kansas receives federal approval to pilot innovative through-year assessment system</a></h3>
+        <p>KSDE announces U.S. Department of Education approval to pilot a through-year assessment system under the Innovative Assessment Demonstration Authority (IADA)&mdash;the assessment KSDE is deploying is Astra.</p>
+      </article>
+      <article class="news-card">
+        <p class="news-meta"><span class="news-source">WIBW-TV</span><span class="news-date">July 31, 2026</span></p>
+        <h3><a href="https://www.wibw.com/2026/07/31/six-kansas-districts-pilot-new-quarterly-testing-program/" target="_blank" rel="noopener">Six Kansas districts to pilot new quarterly testing program</a></h3>
+        <p>Coverage of the six-district cohort and how quarterly assessments will replace or run alongside KAP starting in the 2026&ndash;27 school year.</p>
+      </article>
+      <article class="news-card">
+        <p class="news-meta"><span class="news-source">KSNT-TV</span><span class="news-date">July 31, 2026</span></p>
+        <h3><a href="https://www.ksnt.com/news/local-news/six-kansas-school-districts-to-adopt-new-assessment-system/" target="_blank" rel="noopener">Six Kansas school districts to adopt new assessment system</a></h3>
+        <p>Local reporting on the launch of Kansas's federally approved through-year assessment pilot.</p>
+      </article>
+    </div>
+  </div>
+</section>
+
 <!-- ── CTA ────────────────────────────────────────────────────────────────────── -->
 <section class="cta-banner">
   <div class="section-container">

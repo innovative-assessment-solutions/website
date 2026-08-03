@@ -51,31 +51,40 @@ description: "The six Kansas districts implementing Astra as their through-year 
     <p class="astra-spotlight-eyebrow" style="color:#233452; text-align:center;">The Districts</p>
     <h2 class="section-heading" style="text-align:center;">Who's in the cohort.</h2>
     <hr class="section-divider">
+    <p style="max-width:820px; margin:0 auto 40px; color:#555; font-size:1rem; line-height:1.85; text-align:center;">
+      Per the KSDE announcement of July 31, 2026, two of the six 2026&ndash;27 cohort districts (Kansas City Kansas and Olathe) will use Astra <em>in place of</em> the Kansas Assessment Program (KAP) in participating grades and subjects during Year 1. The other four (Dodge City, Geary County, Great Bend, and Humboldt) will administer <em>both</em> Astra and KAP during Year 1 to provide additional comparability evidence.
+    </p>
 
     <div class="cohort-grid">
       <div class="cohort-card">
         <h3>Dodge City Public Schools</h3>
         <p class="cohort-usd">USD 443</p>
+        <p class="cohort-role">Year 1: Astra + KAP</p>
       </div>
       <div class="cohort-card">
         <h3>Geary County Unified School District</h3>
         <p class="cohort-usd">USD 475</p>
+        <p class="cohort-role">Year 1: Astra + KAP</p>
       </div>
       <div class="cohort-card">
         <h3>Great Bend Public Schools</h3>
         <p class="cohort-usd">USD 428</p>
+        <p class="cohort-role">Year 1: Astra + KAP</p>
       </div>
       <div class="cohort-card">
         <h3>Humboldt Public Schools</h3>
         <p class="cohort-usd">USD 258</p>
+        <p class="cohort-role">Year 1: Astra + KAP</p>
       </div>
-      <div class="cohort-card">
+      <div class="cohort-card cohort-card--replaces">
         <h3>Kansas City Kansas Public Schools</h3>
         <p class="cohort-usd">USD 500</p>
+        <p class="cohort-role cohort-role--replaces">Year 1: Astra replaces KAP</p>
       </div>
-      <div class="cohort-card">
+      <div class="cohort-card cohort-card--replaces">
         <h3>Olathe Public Schools</h3>
         <p class="cohort-usd">USD 233</p>
+        <p class="cohort-role cohort-role--replaces">Year 1: Astra replaces KAP</p>
       </div>
     </div>
   </div>

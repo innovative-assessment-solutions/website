@@ -825,7 +825,7 @@ header#title-block-header,
   .astra-page-hero-mark { justify-self: start; margin-bottom: 24px; }
 }
 
-// ── Credential badges strip (KSDE, Legislature, IADA-pending) ────────────
+// ── Credential badges strip (KSDE, results, IADA approval) ──────────────
 .ias-badges {
   display: flex;
   flex-wrap: wrap;
@@ -859,7 +859,7 @@ header#title-block-header,
   text-transform: none;
 }
 
-// ── IADA callout — pull-quote for the pending-review notice ──────────────
+// ── IADA callout — pull-quote block for federal-approval notice ─────────
 .ias-callout {
   background: #F4F5F7;
   border-left: 4px solid #67ABE9;
@@ -1323,3 +1323,172 @@ header#title-block-header,
 }
 .powered-copy p:last-child { margin-bottom: 0; }
 
+
+// ── In the News (Home page) ─────────────────────────────────────────────
+.news-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 28px;
+  margin-top: 40px;
+}
+@media (max-width: 900px) {
+  .news-grid { grid-template-columns: 1fr; }
+}
+.news-card {
+  background: #ffffff;
+  border: 1px solid #e3e8ef;
+  border-left: 4px solid #3d7fb0;
+  padding: 26px 26px 24px;
+  display: flex;
+  flex-direction: column;
+  transition: box-shadow 0.25s, transform 0.25s;
+}
+.news-card:hover {
+  box-shadow: 0 10px 40px rgba(11, 37, 69, 0.10);
+  transform: translateY(-2px);
+}
+.news-card .news-meta {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  margin: 0 0 12px;
+}
+.news-card .news-source {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 0.72rem;
+  font-weight: 700;
+  color: #3d7fb0;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+}
+.news-card .news-date {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 0.75rem;
+  color: #6b7684;
+  letter-spacing: 0.02em;
+}
+.news-card h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.05rem;
+  font-weight: 700;
+  color: #00102E;
+  line-height: 1.35;
+  margin: 0 0 12px;
+  letter-spacing: 0.005em;
+}
+.news-card h3 a {
+  color: inherit;
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+  transition: border-color 0.2s, color 0.2s;
+}
+.news-card h3 a:hover {
+  color: #3d7fb0;
+  border-bottom-color: #3d7fb0;
+}
+.news-card p:not(.news-meta):not(.news-source):not(.news-date) {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 0.95rem;
+  line-height: 1.7;
+  color: #555;
+  margin: 0;
+}
+
+// ── Cohort role tag (Year 1: Astra + KAP / replaces KAP) ────────────────
+.cohort-role {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 0.78rem;
+  font-weight: 600;
+  color: #555;
+  letter-spacing: 0.02em;
+  margin: 12px 0 0;
+  padding-top: 10px;
+  border-top: 1px solid #e3e8ef;
+}
+.cohort-role--replaces {
+  color: #233452;
+  font-weight: 700;
+}
+.cohort-card--replaces {
+  border-left-color: #233452;
+}
+
+// ── Astra FAQ (astra-faq page) ─────────────────────────────────────────
+.faq-group {
+  margin-bottom: 48px;
+}
+.faq-group + .faq-group {
+  margin-top: 56px;
+}
+.faq-group .section-heading {
+  margin-bottom: 8px;
+}
+.faq-item {
+  background: #ffffff;
+  border: 1px solid #e3e8ef;
+  border-left: 4px solid #67ABE9;
+  padding: 20px 24px;
+  margin-top: 14px;
+  transition: box-shadow 0.2s;
+}
+.faq-item[open] {
+  box-shadow: 0 6px 24px rgba(11, 37, 69, 0.06);
+  border-left-color: #3d7fb0;
+}
+.faq-item summary {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1rem;
+  font-weight: 700;
+  color: #00102E;
+  cursor: pointer;
+  list-style: none;
+  padding-right: 32px;
+  position: relative;
+  line-height: 1.5;
+}
+.faq-item summary::-webkit-details-marker { display: none; }
+.faq-item summary::after {
+  content: "+";
+  position: absolute;
+  right: 4px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.4rem;
+  font-weight: 400;
+  color: #3d7fb0;
+  transition: transform 0.2s;
+  line-height: 1;
+}
+.faq-item[open] summary::after {
+  content: "\2212"; // minus sign
+}
+.faq-body {
+  margin-top: 14px;
+  padding-top: 14px;
+  border-top: 1px solid #eef1f5;
+}
+.faq-body p,
+.faq-body ul,
+.faq-body ol {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 0.98rem;
+  line-height: 1.75;
+  color: #333;
+  margin: 0 0 12px;
+}
+.faq-body p:last-child,
+.faq-body ul:last-child,
+.faq-body ol:last-child { margin-bottom: 0; }
+.faq-body ul,
+.faq-body ol {
+  padding-left: 22px;
+}
+.faq-body li {
+  margin-bottom: 6px;
+}
+.faq-body a {
+  color: #3d7fb0;
+  text-decoration: underline;
+}
+.faq-body a:hover { color: #233452; }

@@ -1,0 +1,182 @@
+---
+title: ""
+description: "Astra and IADA: straightforward answers to the questions Kansas districts, educators, and policymakers ask most often."
+---
+
+```{=html}
+<section class="page-header">
+  <div class="page-header-text">
+    <div class="page-header-inner">
+      <p class="page-header-label">Astra &amp; IADA</p>
+      <div class="page-header-h1" role="heading" aria-level="1">Frequently Asked Questions</div>
+      <p class="page-header-sub">Straightforward answers about Astra, the Kansas IADA pilot, and what participation actually means for your district.</p>
+    </div>
+  </div>
+  <div class="page-header-image" style="background-image:url('assets/images/pexels-fauxels-3184468-1.jpg');"></div>
+</section>
+
+<section class="section-white">
+  <div class="section-container" style="max-width:900px;">
+
+    <!-- ── IADA vs Astra ───────────────────────────────────────────────────── -->
+    <div class="faq-group">
+      <p class="astra-spotlight-eyebrow" style="color:#233452;">Astra and IADA</p>
+      <h2 class="section-heading">Astra vs. the IADA pilot</h2>
+      <hr class="section-divider-left">
+
+      <details class="faq-item">
+        <summary>Do we have to be in the KSDE IADA pilot to use Astra?</summary>
+        <div class="faq-body">
+          <p><strong>No.</strong> Kansas districts can use Astra as a benchmark or interim assessment alongside KAP without being part of the IADA pilot. IADA is a separate federal program that governs whether Astra can be used <em>in place of</em> KAP for federal accountability&mdash;it is not required to run Astra in your schools.</p>
+          <p>For districts that do want Astra to eventually serve as their accountability assessment, KSDE has established a pipeline for that transition. Joining the pilot does <strong>not</strong> mean immediately dropping KAP. Most districts entering the pilot begin by administering both Astra and KAP together&mdash;providing the comparability evidence KSDE and the U.S. Department of Education require&mdash;and then move toward Astra as the accountability test over time. In the current 2026&ndash;27 cohort's Year 1, only Kansas City Kansas USD 500 and Olathe USD 233 use Astra <em>in place of</em> KAP in participating grades and subjects; the other four cohort districts continue to run both.</p>
+        </div>
+      </details>
+
+      <details class="faq-item">
+        <summary>What does the July 31, 2026 IADA approval actually mean?</summary>
+        <div class="faq-body">
+          <p>The U.S. Department of Education approved Kansas to pilot a through-year assessment system under the Innovative Assessment Demonstration Authority. Per the <a href="https://www.ksde.gov/news-center/news-releases/2026/07/31/kansas-receives-federal-approval-to-pilot-innovative-through-year-assessment-system" target="_blank" rel="noopener">KSDE announcement</a>, Kansas is one of only seven states approved for IADA since the program began in 2018&mdash;and, per the <a href="https://www.ed.gov/grants-and-programs/formula-grants/school-improvement/iada" target="_blank" rel="noopener">USDoE IADA page</a>, one of only two states approved in the past five years (alongside Missouri, approved July 31, 2025). Practically, this means Kansas can use the new system for federal accountability in the participating cohort districts, starting in the 2026&ndash;27 school year. The pilot runs for five years, with additional Kansas districts joining each year as evidence of technical quality accumulates.</p>
+        </div>
+      </details>
+
+      <details class="faq-item">
+        <summary>Is "Astra" the same thing as the "Kansas Through-Year Curriculum-Directed Assessment"?</summary>
+        <div class="faq-body">
+          <p><strong>Yes.</strong> Astra is the product name IAS uses for its through-year assessment system. When KSDE refers to the "Kansas Through-Year Curriculum-Directed Assessment," it is describing the Astra system as deployed for Kansas under IADA.</p>
+        </div>
+      </details>
+    </div>
+
+    <!-- ── Cohort, timing, district roles ────────────────────────────────── -->
+    <div class="faq-group">
+      <p class="astra-spotlight-eyebrow" style="color:#233452;">The Kansas cohort</p>
+      <h2 class="section-heading">Cohort, timing, and district roles</h2>
+      <hr class="section-divider-left">
+
+      <details class="faq-item">
+        <summary>Which districts are in the 2026&ndash;27 cohort?</summary>
+        <div class="faq-body">
+          <p>Six Kansas districts: Kansas City Kansas USD 500, Olathe USD 233, Geary County USD 475, Dodge City USD 443, Great Bend USD 428, and Humboldt USD 258. See the <a href="cohort.qmd">Cohort page</a> for a map and district roster.</p>
+        </div>
+      </details>
+
+      <details class="faq-item">
+        <summary>Do cohort districts stop taking KAP for accountability?</summary>
+        <div class="faq-body">
+          <p><strong>No.</strong> Kansas City and Olathe use Astra <em>in place of</em> the Kansas Assessment Program (KAP) summative in participating grades and subjects starting in 2026&ndash;27 due to each district having used this system for the past four years. Geary County, Dodge City, Great Bend, and Humboldt administer <em>both</em> Astra and KAP during 2026&ndash;27 to produce comparability evidence. As the pilot expands past 2026&ndash;27, districts meeting KSDE criteria will use Astra for accountability.</p>
+        </div>
+      </details>
+
+      <details class="faq-item">
+        <summary>Can new Kansas districts still join the pilot?</summary>
+        <div class="faq-body">
+          <p><strong>Yes.</strong> KSDE plans to add districts meeting its criteria each year of the five-year pilot, as the assessment continues to demonstrate technical quality, comparability, and readiness. Kansas districts can express interest through the <a href="https://www.surveymonkey.com/r/BFBPQTD" target="_blank" rel="noopener">KSDE district sign-up form</a>.</p>
+        </div>
+      </details>
+
+      <details class="faq-item">
+        <summary>Can districts outside Kansas use Astra?</summary>
+        <div class="faq-body">
+          <p><strong>Not currently.</strong> Astra's item bank, scope-and-sequence design, and reporting are built around the Kansas Academic Standards, so the system does not port easily to districts operating under different state standards. That said, IAS is actively working on expanding Astra beyond Kansas and welcomes conversations with districts and state agencies interested in bringing a similar through-year system to their state. <a href="contact.qmd">Contact IAS</a> to start that conversation.</p>
+        </div>
+      </details>
+    </div>
+
+    <!-- ── What Astra covers ─────────────────────────────────────────────── -->
+    <div class="faq-group">
+      <p class="astra-spotlight-eyebrow" style="color:#233452;">What Astra assesses</p>
+      <h2 class="section-heading">Grades, subjects, and cadence</h2>
+      <hr class="section-divider-left">
+
+      <details class="faq-item">
+        <summary>Which grades and subjects does Astra assess?</summary>
+        <div class="faq-body">
+          <p>Astra covers <strong>Math</strong> (Grades 2&ndash;8 plus Algebra I, Geometry, and Algebra II at the high school level) and <strong>English Language Arts</strong> (Grades 2 through high school). See the <a href="astra-assessments.qmd">Astra Assessments</a> page for the full grade and subject matrix.</p>
+        </div>
+      </details>
+
+      <details class="faq-item">
+        <summary>How often do students take Astra assessments?</summary>
+        <div class="faq-body">
+          <p>Four times a year&mdash;once per academic quarter. Each quarterly assessment is short (roughly 20 items per subject) and is designed to be completed in a single class period. Assessments are built around the specific standards each district is teaching that quarter&mdash;districts select up to four standards per grade in ELA and up to four in Math&mdash;not a fixed national item bank.</p>
+        </div>
+      </details>
+
+      <details class="faq-item">
+        <summary>How is Astra different from KAP?</summary>
+        <div class="faq-body">
+          <p>KAP is an end-of-year summative assessment; results arrive after the school year is essentially over. Astra is a through-year system that returns standard-by-standard results within days of each quarter's assessment window closing, so teachers can adjust instruction while students are still in the classroom. For IADA cohort districts, quarterly Astra scores accumulate into an annual determination that fulfills federal accountability requirements.</p>
+        </div>
+      </details>
+    </div>
+
+    <!-- ── Reports and data ──────────────────────────────────────────────── -->
+    <div class="faq-group">
+      <p class="astra-spotlight-eyebrow" style="color:#233452;">Reports and data</p>
+      <h2 class="section-heading">What teachers and districts see</h2>
+      <hr class="section-divider-left">
+
+      <details class="faq-item">
+        <summary>How fast do teachers get results?</summary>
+        <div class="faq-body">
+          <p>Standard-by-standard reports are delivered within days of each quarterly assessment window closing&mdash;along with the items and each student's responses. Teachers can immediately identify where individual students and classes need additional instruction.</p>
+        </div>
+      </details>
+
+      <details class="faq-item">
+        <summary>Do quarterly Astra scores predict end-of-year KAP performance?</summary>
+        <div class="faq-body">
+          <p>Yes. In pilot data, Astra's quarterly composite explains <strong>70&ndash;90%</strong> of the variance in end-of-year KAP scores. This gives districts a running, in-year signal of likely accountability performance rather than waiting for KAP results after the year is over.</p>
+        </div>
+      </details>
+
+      <details class="faq-item">
+        <summary>Who owns the assessment data?</summary>
+        <div class="faq-body">
+          <p>Districts retain full ownership of their student assessment data. IAS acts as a service provider under district and state data agreements; data is not resold or repurposed.</p>
+        </div>
+      </details>
+    </div>
+
+    <!-- ── Getting started ─────────────────────────────────────────────────── -->
+    <div class="faq-group">
+      <p class="astra-spotlight-eyebrow" style="color:#233452;">Getting started</p>
+      <h2 class="section-heading">Next steps</h2>
+      <hr class="section-divider-left">
+
+      <details class="faq-item">
+        <summary>Can we pilot Astra with just one grade or one school first?</summary>
+        <div class="faq-body">
+          <p>Yes. Districts outside the KSDE IADA cohort commonly start with a scoped pilot&mdash;one grade band, one subject, or one school&mdash;before expanding. <a href="contact.qmd">Contact IAS</a> to design a pilot that fits your context.</p>
+        </div>
+      </details>
+
+      <details class="faq-item">
+        <summary>What does a district need to do to get started?</summary>
+        <div class="faq-body">
+          <p>Two paths:</p>
+          <ul>
+            <li><strong>Kansas districts interested in the KSDE IADA cohort:</strong> complete the <a href="https://www.surveymonkey.com/r/BFBPQTD" target="_blank" rel="noopener">KSDE district sign-up form</a>.</li>
+            <li><strong>Kansas districts outside the current cohort, or out-of-state districts exploring future expansion:</strong> request a 20-minute demonstration with IAS from the <a href="contact.qmd">Contact page</a>.</li>
+          </ul>
+        </div>
+      </details>
+    </div>
+
+    <p style="text-align:center; margin-top:56px; color:#555; font-size:0.95rem;">
+      Have a question that isn't answered here? <a href="contact.qmd">Get in touch</a> and we'll add it.
+    </p>
+  </div>
+</section>
+
+<section class="cta-banner">
+  <div class="section-container">
+    <h2>Ready to see Astra in your district?</h2>
+    <p>A 20-minute demonstration is the fastest way to know whether Astra fits your assessment goals.</p>
+    <div style="display:flex; gap:16px; justify-content:center; flex-wrap:wrap;">
+      <a href="contact.qmd" class="btn-ias">Schedule Your Demonstration</a>
+      <a href="https://www.surveymonkey.com/r/BFBPQTD" target="_blank" rel="noopener" class="btn-ias-outline">Register Your District to Join the Pilot with KSDE</a>
+    </div>
+  </div>
+</section>
+```

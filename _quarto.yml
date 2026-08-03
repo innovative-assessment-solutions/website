@@ -26,6 +26,8 @@ website:
         href: astra-assessments.qmd
       - text: "2026–27 Cohort"
         href: cohort.qmd
+      - text: "FAQ"
+        href: astra-faq.qmd
       - text: "About"
         href: about.qmd
     right:
