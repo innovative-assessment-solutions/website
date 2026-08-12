@@ -201,6 +201,26 @@ description: "Six steps from a district's scope and sequence to standard-level m
     <hr class="section-divider">
 
     <div class="video-block">
+      <h3 class="video-block-title">Kansas State Board of Education&mdash;IADA pilot update from Dr. Zach Conrad (August 11, 2026)</h3>
+      <p class="video-block-desc">
+        Dr. Zach Conrad, Deputy Commissioner of Accountability and Technology for the Kansas State Department of Education, provides an update to the Kansas State Board of Education on the IADA (Innovative Assessment Demonstration Authority) pilot&mdash;the federal pilot under which Astra is used. The embed below is cued to his update.
+      </p>
+
+      <div class="video-embed">
+        <iframe
+          src="https://www.youtube-nocookie.com/embed/U_oBjHTxzsI?start=5252&amp;end=7500"
+          title="Kansas State Board of Education—Dr. Zach Conrad IADA pilot update"
+          allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          referrerpolicy="strict-origin-when-cross-origin"
+          allowfullscreen></iframe>
+      </div>
+
+      <p class="video-chapters-note" style="text-align:center;">
+        <em>Segment runs from 1:27:32 to 2:05:00. <a href="https://www.youtube.com/live/U_oBjHTxzsI?t=5252s" target="_blank" rel="noopener">Watch on YouTube</a>.</em>
+      </p>
+    </div>
+
+    <div class="video-block">
       <h3 class="video-block-title">Kansas State Board of Education&mdash;Olathe &amp; IAS presentation (February 11, 2026)</h3>
       <p class="video-block-desc">
         Olathe USD 233 and IAS present on the Astra implementation. The embed below starts at the Olathe &amp; IAS portion of the meeting (about 50 minutes of substantive content). Fair warning: this is depth-of-detail material for board members and district leaders reviewing the program.
