@@ -304,7 +304,8 @@ description: "Six steps from a district's scope and sequence to standard-level m
       On July 31, 2026, the Kansas State Department of Education announced that the U.S. Department of Education approved Kansas to pilot a through-year assessment system under the <strong>Innovative Assessment Demonstration Authority (IADA)</strong>&mdash;the only federal pathway for a state to use an innovative assessment in place of its standard summative test for accountability. According to KSDE, Kansas is one of only seven states approved for IADA since the program began in 2018; per the USDoE IADA page, Kansas is also one of only two states approved in the past five years, alongside Missouri (approved July 31, 2025). The assessment KSDE is deploying is built by Innovative Assessment Solutions and marketed as Astra.
     </p>
     <p style="max-width:820px; color:#555; font-size:0.95rem; line-height:1.7; margin-top:18px;">
-      <a href="https://www.ksde.gov/news-center/news-releases/2026/07/31/kansas-receives-federal-approval-to-pilot-innovative-through-year-assessment-system" target="_blank" rel="noopener">Read the KSDE announcement &rarr;</a>
+      <a href="https://www.ksde.gov/news-center/news-releases/2026/07/31/kansas-receives-federal-approval-to-pilot-innovative-through-year-assessment-system" target="_blank" rel="noopener">Read the KSDE announcement &rarr;</a><br>
+      <a href="https://www.ed.gov/grants-and-programs/formula-grants/school-improvement/iada#state-applications" target="_blank" rel="noopener">View Kansas's IADA application and materials on ed.gov &rarr;</a>
     </p>
   </div>
 </section>
