@@ -43,7 +43,7 @@ description: "About Innovative Assessment Solutions—a Kansas assessment compan
       technical questions to a queue.
     </p>
 
-    <div style="display:grid; grid-template-columns:repeat(3,1fr); gap:28px; text-align:left;">
+    <div style="display:grid; grid-template-columns:repeat(auto-fit,minmax(240px,1fr)); gap:28px; text-align:left;">
 
       <!-- Jonathan Templin -->
       <div>
@@ -97,6 +97,25 @@ description: "About Innovative Assessment Solutions—a Kansas assessment compan
               She blends educational measurement, cognitive psychology, and educational practices
               to create well-designed assessments that serve as powerful tools for tailoring
               instruction and optimizing student success.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Payton Lynn -->
+      <div>
+        <div class="team-card">
+          <div class="team-photo-wrap">
+            <img src="assets/images/lynn.jpg" alt="Payton Lynn">
+          </div>
+          <div class="team-card-body">
+            <h3>Payton Lynn</h3>
+            <p class="team-role">Director of Strategic Communications</p>
+            <p>
+              As Director of Strategic Communications at IAS, Payton's work is rooted in her
+              previous experience as Policy Coordinator at the Kansas State Department of
+              Education. A Kansas State University alum, she is currently pursuing a Master's
+              in Education Policy at Vanderbilt University.
             </p>
           </div>
         </div>
