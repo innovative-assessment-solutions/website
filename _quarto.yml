@@ -6,6 +6,10 @@ project:
   resources:
     - assets/
     - CNAME
+    # Parent-report translation companion PDFs: copied verbatim to the site and
+    # reachable by direct URL, but intentionally not linked from any page. See
+    # report-translations/README.md.
+    - report-translations/
 
 website:
   title: "Innovative Assessment Solutions"
