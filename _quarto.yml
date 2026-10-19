@@ -10,6 +10,8 @@ project:
     # reachable by direct URL, but intentionally not linked from any page. See
     # report-translations/README.md.
     - report-translations/
+    # Short typable forwarding pages for those PDFs (/t/<code>), printed on the parent report.
+    - t/
 
 website:
   title: "Innovative Assessment Solutions"
